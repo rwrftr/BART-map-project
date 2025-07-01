@@ -1,0 +1,432 @@
+============================================================
+BART Next Train Arrivals - 2025-06-30 22:31:29
+============================================================
+----------------------------------------
+Train ID: 1682549
+Next Stop: Warm Springs / South Fremont (stop S20-1)
+Arrives in: 1 min
+----------------------------------------
+----------------------------------------
+Train ID: 1682497
+Next Stop: Berryessa / North San Jose (stop S50-2)
+Arrives in: 13 min
+----------------------------------------
+----------------------------------------
+Train ID: 1682550
+Next Stop: Hayward (stop A60-1)
+Arrives in: 1 min
+----------------------------------------
+----------------------------------------
+Train ID: 1682551
+Next Stop: Lake Merritt (stop A10-1)
+Arrives in: 1 min
+----------------------------------------
+----------------------------------------
+Train ID: 1682552
+Next Stop: North Berkeley (stop R30-2)
+Arrives in: 2 min
+----------------------------------------
+----------------------------------------
+Train ID: 1682553
+Next Stop: Richmond (stop R60-2)
+Arrives in: 9 min
+----------------------------------------
+----------------------------------------
+Train ID: 1682492
+Next Stop: El Cerrito Del Norte (stop R50-1)
+Arrives in: 0 min
+----------------------------------------
+----------------------------------------
+Train ID: 1682554
+Next Stop: Richmond (stop R60-2)
+Arrives in: 29 min
+----------------------------------------
+----------------------------------------
+Train ID: 1682493
+Next Stop: 12th Street / Oakland City Center (stop K10-1)
+Arrives in: 0 min
+----------------------------------------
+----------------------------------------
+Train ID: 1682494
+Next Stop: Bay Fair (stop A50-2)
+Arrives in: 2 min
+----------------------------------------
+----------------------------------------
+Train ID: 1682495
+Next Stop: Fremont (stop A90-2)
+Arrives in: 5 min
+----------------------------------------
+----------------------------------------
+Train ID: 1682496
+Next Stop: Milpitas (stop S40-2)
+Arrives in: 9 min
+----------------------------------------
+----------------------------------------
+Train ID: 1682417
+Next Stop: Orinda (stop C20-2)
+Arrives in: 4 min
+----------------------------------------
+----------------------------------------
+Train ID: 1682418
+Next Stop: North Concord / Martinez (stop C70-2)
+Arrives in: 0 min
+----------------------------------------
+----------------------------------------
+Train ID: 1682655
+Next Stop: Pittsburg / Bay Point (stop C80-1)
+Arrives in: 4 min
+----------------------------------------
+----------------------------------------
+Train ID: 1682415
+Next Stop: Pittsburg / Bay Point (stop C80-2)
+Arrives in: 13 min
+----------------------------------------
+----------------------------------------
+Train ID: 1682656
+Next Stop: Walnut Creek (stop C40-1)
+Arrives in: 3 min
+----------------------------------------
+----------------------------------------
+Train ID: 1682416
+Next Stop: Pittsburg / Bay Point (stop C80-2)
+Arrives in: 33 min
+----------------------------------------
+----------------------------------------
+Train ID: 1682657
+Next Stop: 12th Street / Oakland City Center (stop K10-3)
+Arrives in: 1 min
+----------------------------------------
+----------------------------------------
+Train ID: 1682658
+Next Stop: 24th Street / Mission (stop M60-2)
+Arrives in: 0 min
+----------------------------------------
+----------------------------------------
+Train ID: 1682659
+Next Stop: San Bruno (stop W30-2)
+Arrives in: 0 min
+----------------------------------------
+----------------------------------------
+Train ID: 1682660
+Next Stop: San Francisco International Airport (stop Y10-1)
+Arrives in: 3 min
+----------------------------------------
+----------------------------------------
+Train ID: 1682403
+Next Stop: Glen Park (stop M70-1)
+Arrives in: 0 min
+----------------------------------------
+----------------------------------------
+Train ID: 1682661
+Next Stop: San Francisco International Airport (stop Y10-1)
+Arrives in: 21 min
+----------------------------------------
+----------------------------------------
+Train ID: 1682348
+Next Stop: West Oakland (stop M10-1)
+Arrives in: 1 min
+----------------------------------------
+----------------------------------------
+Train ID: 1682435
+Next Stop: San Francisco International Airport (stop Y10-2)
+Arrives in: 2 min
+----------------------------------------
+----------------------------------------
+Train ID: 1682674
+Next Stop: Millbrae (Caltrain Transfer Platform) (stop W40-3)
+Arrives in: 12 min
+----------------------------------------
+----------------------------------------
+Train ID: 1682427
+Next Stop: San Francisco International Airport (stop Y10-2)
+Arrives in: 19 min
+----------------------------------------
+----------------------------------------
+Train ID: 1682678
+Next Stop: Millbrae (Caltrain Transfer Platform) (stop W40-3)
+Arrives in: 27 min
+----------------------------------------
+----------------------------------------
+Train ID: 1682436
+Next Stop: San Francisco International Airport (stop Y10-2)
+Arrives in: 34 min
+----------------------------------------
+----------------------------------------
+Train ID: 1683075
+Next Stop: West Oakland (stop M10-2)
+Arrives in: 6 min
+----------------------------------------
+----------------------------------------
+Train ID: 1683077
+Next Stop: Balboa Park (stop M80-2)
+Arrives in: 3 min
+----------------------------------------
+----------------------------------------
+Train ID: 1683018
+Next Stop: Embarcadero (stop M16-1)
+Arrives in: 0 min
+----------------------------------------
+----------------------------------------
+Train ID: 1683078
+Next Stop: Daly City (stop M90-1)
+Arrives in: 17 min
+----------------------------------------
+----------------------------------------
+Train ID: 1683019
+Next Stop: Fruitvale (stop A20-2)
+Arrives in: 2 min
+----------------------------------------
+----------------------------------------
+Train ID: 1683079
+Next Stop: Daly City (stop M90-1)
+Arrives in: 36 min
+----------------------------------------
+----------------------------------------
+Train ID: 1683020
+Next Stop: Castro Valley (stop L10-2)
+Arrives in: 6 min
+----------------------------------------
+----------------------------------------
+Train ID: 1683084
+Next Stop: West Dublin / Pleasanton (stop L20-1)
+Arrives in: 0 min
+----------------------------------------
+----------------------------------------
+Train ID: 1683021
+Next Stop: Dublin / Pleasanton (stop L30-2)
+Arrives in: 3 min
+----------------------------------------
+----------------------------------------
+Train ID: 1683074
+Next Stop: San Leandro (stop A40-1)
+Arrives in: 1 min
+----------------------------------------
+----------------------------------------
+Train ID: 1683022
+Next Stop: Dublin / Pleasanton (stop L30-2)
+Arrives in: 23 min
+----------------------------------------
+----------------------------------------
+Train ID: 718
+Next Stop: Pittsburg Center (stop E20-1)
+Arrives in: 15 min
+----------------------------------------
+----------------------------------------
+Train ID: 720
+Next Stop: Pittsburg Center (stop E20-1)
+Arrives in: 35 min
+----------------------------------------
+----------------------------------------
+Train ID: 721
+Next Stop: Antioch (stop E30-2)
+Arrives in: 0 min
+----------------------------------------
+----------------------------------------
+Train ID: 722
+Next Stop: Pittsburg Center (stop E20-1)
+Arrives in: 55 min
+----------------------------------------
+----------------------------------------
+Train ID: 723
+Next Stop: Antioch (stop E30-2)
+Arrives in: 27 min
+----------------------------------------
+----------------------------------------
+Train ID: 724
+Next Stop: Pittsburg Center (stop E20-1)
+Arrives in: 75 min
+----------------------------------------
+----------------------------------------
+Train ID: 725
+Next Stop: Antioch (stop E30-2)
+Arrives in: 47 min
+----------------------------------------
+----------------------------------------
+Train ID: 727
+Next Stop: Antioch (stop E30-2)
+Arrives in: 66 min
+----------------------------------------
+============================================================
+Enter station code, train and number, or command: list trains
+
+Current trains and their next stop:
+------------------------------------------------------------
+Train 1682549 → Warm Springs / South Fremont (stop S20-1) in 1 min
+Train 1682497 → Berryessa / North San Jose (stop S50-2) in 13 min
+Train 1682550 → Hayward (stop A60-1) in 1 min
+Train 1682551 → Lake Merritt (stop A10-1) in 1 min
+Train 1682552 → North Berkeley (stop R30-2) in 2 min
+Train 1682553 → Richmond (stop R60-2) in 9 min
+Train 1682492 → El Cerrito Del Norte (stop R50-1) in 0 min
+Train 1682554 → Richmond (stop R60-2) in 29 min
+Train 1682493 → 12th Street / Oakland City Center (stop K10-1) in 0 min
+Train 1682494 → Bay Fair (stop A50-2) in 2 min
+Train 1682495 → Fremont (stop A90-2) in 5 min
+Train 1682496 → Milpitas (stop S40-2) in 9 min
+Train 1682417 → Orinda (stop C20-2) in 4 min
+Train 1682418 → North Concord / Martinez (stop C70-2) in 0 min
+Train 1682655 → Pittsburg / Bay Point (stop C80-1) in 4 min
+Train 1682415 → Pittsburg / Bay Point (stop C80-2) in 13 min
+Train 1682656 → Walnut Creek (stop C40-1) in 3 min
+Train 1682416 → Pittsburg / Bay Point (stop C80-2) in 33 min
+Train 1682657 → 12th Street / Oakland City Center (stop K10-3) in 1 min
+Train 1682658 → 24th Street / Mission (stop M60-2) in 0 min
+Train 1682659 → San Bruno (stop W30-2) in 0 min
+Train 1682660 → San Francisco International Airport (stop Y10-1) in 3 min
+Train 1682403 → Glen Park (stop M70-1) in 0 min
+Train 1682661 → San Francisco International Airport (stop Y10-1) in 21 min
+Train 1682348 → West Oakland (stop M10-1) in 1 min
+Train 1682435 → San Francisco International Airport (stop Y10-2) in 2 min
+Train 1682674 → Millbrae (Caltrain Transfer Platform) (stop W40-3) in 12 min
+Train 1682427 → San Francisco International Airport (stop Y10-2) in 19 min
+Train 1682678 → Millbrae (Caltrain Transfer Platform) (stop W40-3) in 27 min
+Train 1682436 → San Francisco International Airport (stop Y10-2) in 34 min
+Train 1683075 → West Oakland (stop M10-2) in 6 min
+Train 1683077 → Balboa Park (stop M80-2) in 3 min
+Train 1683018 → Embarcadero (stop M16-1) in 0 min
+Train 1683078 → Daly City (stop M90-1) in 17 min
+Train 1683019 → Fruitvale (stop A20-2) in 1 min
+Train 1683079 → Daly City (stop M90-1) in 36 min
+Train 1683020 → Castro Valley (stop L10-2) in 6 min
+Train 1683084 → West Dublin / Pleasanton (stop L20-1) in 0 min
+Train 1683021 → Dublin / Pleasanton (stop L30-2) in 3 min
+Train 1683074 → San Leandro (stop A40-1) in 1 min
+Train 1683022 → Dublin / Pleasanton (stop L30-2) in 23 min
+Train 718 → Pittsburg Center (stop E20-1) in 15 min
+Train 720 → Pittsburg Center (stop E20-1) in 35 min
+Train 721 → Antioch (stop E30-2) in 0 min
+Train 722 → Pittsburg Center (stop E20-1) in 55 min
+Train 723 → Antioch (stop E30-2) in 27 min
+Train 724 → Pittsburg Center (stop E20-1) in 75 min
+Train 725 → Antioch (stop E30-2) in 47 min
+Train 727 → Antioch (stop E30-2) in 66 min
+------------------------------------------------------------
+
+Enter station code, train and number, or command: list stops
+
+Available BART Stations with upcoming arrivals (grouped):
+  12th Street / Oakland City Center (code: K10, platforms: K10-2, K10-3, K10-1)
+  16th Street / Mission (code: M50, platforms: M50-1, M50-2)
+  19th Street Oakland (code: K20, platforms: K20-1, K20-2, K20-3)
+  24th Street / Mission (code: M60, platforms: M60-2, M60-1)
+  Antioch (code: E30, platforms: E30-2)
+  Ashby (code: R10, platforms: R10-2, R10-1)
+  Balboa Park (code: M80, platforms: M80-2, M80-1)
+  Bay Fair (code: A50, platforms: A50-1, A50-2)
+  Berryessa / North San Jose (code: S50, platforms: S50-2)
+  Castro Valley (code: L10, platforms: L10-1, L10-2)
+  Civic Center / UN Plaza (code: M40, platforms: M40-1, M40-2)
+  Coliseum (code: A30, platforms: A30-2, A30-1)
+  Colma (code: W10, platforms: W10-1, W10-2)
+  Concord (code: C60, platforms: C60-2, C60-1)
+  Daly City (code: M90, platforms: M90-3, M90-2, M90-1)
+  Downtown Berkeley (code: R20, platforms: R20-2, R20-1)
+  Dublin / Pleasanton (code: L30, platforms: L30-2)
+  El Cerrito Del Norte (code: R50, platforms: R50-2, R50-1)
+  El Cerrito Plaza (code: R40, platforms: R40-1, R40-2)
+  Embarcadero (code: M16, platforms: M16-2, M16-1)
+  Fremont (code: A90, platforms: A90-2, A90-1)
+  Fruitvale (code: A20, platforms: A20-1, A20-2)
+  Glen Park (code: M70, platforms: M70-1, M70-2)
+  Hayward (code: A60, platforms: A60-1, A60-2)
+  Lafayette (code: C30, platforms: C30-1, C30-2)
+  Lake Merritt (code: A10, platforms: A10-2, A10-1)
+  MacArthur (code: K30, platforms: K30-4, K30-3, K30-2, K30-1)
+  Millbrae (Caltrain Transfer Platform) (code: W40, platforms: W40-3)
+  Milpitas (code: S40, platforms: S40-1, S40-2)
+  Montgomery Street (code: M20, platforms: M20-1, M20-2)
+  North Berkeley (code: R30, platforms: R30-2, R30-1)
+  North Concord / Martinez (code: C70, platforms: C70-1, C70-2)
+  Orinda (code: C20, platforms: C20-2, C20-1)
+  Pittsburg / Bay Point (code: C80, platforms: C80-2, C80-1)
+  Pittsburg Center (code: E20, platforms: E20-2, E20-1)
+  Pleasant Hill / Contra Costa Centre (code: C50, platforms: C50-2, C50-1)
+  Powell Street (code: M30, platforms: M30-1, M30-2)
+  Richmond (code: R60, platforms: R60-2)
+  Rockridge (code: C10, platforms: C10-2, C10-1)
+  San Bruno (code: W30, platforms: W30-2, W30-1)
+  San Francisco International Airport (code: Y10, platforms: Y10-2, Y10-1)
+  San Leandro (code: A40, platforms: A40-2, A40-1)
+  South Hayward (code: A70, platforms: A70-2, A70-1)
+  South San Francisco (code: W20, platforms: W20-2, W20-1)
+  Union City (code: A80, platforms: A80-1, A80-2)
+  Walnut Creek (code: C40, platforms: C40-1, C40-2)
+  Warm Springs / South Fremont (code: S20, platforms: S20-2, S20-1)
+  West Dublin / Pleasanton (code: L20, platforms: L20-1, L20-2)
+  West Oakland (code: M10, platforms: M10-1, M10-2)
+
+Enter station code, train and number, or command: Train 1682552
+
+Upcoming stops for train 1682552:
+--------------------------------------------------
+North Berkeley (stop R30-2) in 1 min
+Downtown Berkeley (stop R20-2) in 3 min
+Ashby (stop R10-2) in 6 min
+MacArthur (stop K30-2) in 9 min
+19th Street Oakland (stop K20-2) in 15 min
+12th Street / Oakland City Center (stop K10-2) in 17 min
+Lake Merritt (stop A10-1) in 20 min
+Fruitvale (stop A20-1) in 25 min
+Coliseum (stop A30-1) in 28 min
+San Leandro (stop A40-1) in 32 min
+Bay Fair (stop A50-1) in 36 min
+Hayward (stop A60-1) in 40 min
+South Hayward (stop A70-1) in 44 min
+Union City (stop A80-1) in 50 min
+Fremont (stop A90-1) in 54 min
+Warm Springs / South Fremont (stop S20-1) in 60 min
+Milpitas (stop S40-1) in 68 min
+--------------------------------------------------
+
+Enter station code, train and number, or command: R30
+
+Soonest arrivals at 'R30':
+--------------------------------------------------
+Train 1682552 → North Berkeley (stop R30-2) in 1 min
+Train 1682493 → North Berkeley (stop R30-1) in 12 min
+Train 1682553 → North Berkeley (stop R30-2) in 20 min
+Train 1682494 → North Berkeley (stop R30-1) in 32 min
+Train 1682554 → North Berkeley (stop R30-2) in 40 min
+Train 1682495 → North Berkeley (stop R30-1) in 52 min
+Train 1682496 → North Berkeley (stop R30-1) in 72 min
+Train 1682497 → North Berkeley (stop R30-1) in 92 min
+--------------------------------------------------
+
+Enter station code, train and number, or command: Train 1682493
+
+Upcoming stops for train 1682493:
+--------------------------------------------------
+19th Street Oakland (stop K20-1) in 0 min
+MacArthur (stop K30-1) in 4 min
+Ashby (stop R10-1) in 7 min
+Downtown Berkeley (stop R20-1) in 10 min
+North Berkeley (stop R30-1) in 12 min
+El Cerrito Plaza (stop R40-1) in 15 min
+El Cerrito Del Norte (stop R50-1) in 18 min
+--------------------------------------------------
+
+Enter station code, train and number, or command: Train 1682552
+
+Upcoming stops for train 1682552:
+--------------------------------------------------
+North Berkeley (stop R30-2) in 0 min
+Downtown Berkeley (stop R20-2) in 2 min
+Ashby (stop R10-2) in 5 min
+MacArthur (stop K30-2) in 8 min
+19th Street Oakland (stop K20-2) in 14 min
+12th Street / Oakland City Center (stop K10-2) in 16 min
+Lake Merritt (stop A10-1) in 19 min
+Fruitvale (stop A20-1) in 24 min
+Coliseum (stop A30-1) in 27 min
+San Leandro (stop A40-1) in 31 min
+Bay Fair (stop A50-1) in 35 min
+Hayward (stop A60-1) in 39 min
+South Hayward (stop A70-1) in 43 min
+Union City (stop A80-1) in 49 min
+Fremont (stop A90-1) in 53 min
+Warm Springs / South Fremont (stop S20-1) in 59 min
+Milpitas (stop S40-1) in 67 min
+--------------------------------------------------
+
+Enter station code, train and number, or command: exit
+Goodbye!
