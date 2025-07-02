@@ -81,7 +81,8 @@ def get_train_schedule(feed: gtfs_realtime_pb2.FeedMessage, stops: dict, train_i
                 if stu.arrival and stu.arrival.time >= now:
                     mins = int((stu.arrival.time - now) // 60)
                     sid = stu.stop_id
-                    schedule.append((sid, stops.get(sid, 'Unknown'), mins))
+                    stop_name = stops.get(sid, {}).get('name', 'Unknown')
+                    schedule.append((stop_name, sid, mins))
             return schedule
     return []
 
@@ -96,5 +97,16 @@ def refresh_data(stops_file: str, feed_url: str) -> typing.Tuple[dict, gtfs_real
     """
     Reload stops and fetch the latest feed.
     Returns: (stops, feed)
+    """
+    pass
+
+def see_stop():
+    """
+    Interactive console for querying train and stop data.
+    Commands:
+      - list trains
+      - list stops
+      - train <trip_id>
+      - stop <stop_id>
     """
     pass
