@@ -3,10 +3,14 @@
 bartMap7.py: Simplified BART GTFS-Realtime client with interactive console.
 Dependencies:
     pip install requests protobuf gtfs-realtime-bindings
+    pip install sv-ttk
 """
 
 import csv
 import requests
+import tkinter
+import sv_ttk
+from tkinter import ttk
 from datetime import datetime, timezone
 from collections import defaultdict
 from google.transit import gtfs_realtime_pb2
