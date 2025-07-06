@@ -7,6 +7,7 @@ from google.transit import gtfs_realtime_pb2
 
 STOPS_FILE = 'google_transit_20250113-20250808_v10/stops.txt'
 FEED_URL   = 'http://api.bart.gov/gtfsrt/tripupdate.aspx'
+OUTPUT_FILE = 'stops_dict.txt'
 
 def load_stops(path: str = STOPS_FILE) -> dict:
     """
@@ -23,6 +24,10 @@ def load_stops(path: str = STOPS_FILE) -> dict:
                                      'zone_id': row['zone_id'],
                                      'parent_station': row['parent_station'],
                                      'platform_code': row['platform_code'],}
+            
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        for row in stops:
+            f.write(f"{row}: {stops[row]}\n")
         
     return stops
 
@@ -36,6 +41,7 @@ def fetch_feed(url: str = FEED_URL) -> gtfs_realtime_pb2.FeedMessage:
     response.raise_for_status()  # Raise an error for bad responses
     feed = gtfs_realtime_pb2.FeedMessage()
     feed.ParseFromString(response.content)
+    
     return feed
 
 def prepare_data(feed: gtfs_realtime_pb2.FeedMessage, stops: dict) -> typing.Tuple[dict, dict]:
@@ -86,12 +92,31 @@ def get_train_schedule(feed: gtfs_realtime_pb2.FeedMessage, stops: dict, train_i
             return schedule
     return []
 
-def get_stop_arrivals(feed: gtfs_realtime_pb2.FeedMessage, stops: dict, stop_query: str) -> list:
+def get_stop_arrivals(feed: gtfs_realtime_pb2.FeedMessage, stops: dict, stop_name: str) -> list:
     """
     Get all trains arriving soon at a given stop (by stop_id or name).
     Returns: [(train_id, minutes, stop_id, stop_name), ...]
     """
-    pass
+
+    now = datetime.now(timezone.utc).timestamp()
+    arrivals = []
+    stops_in_station = []
+    
+    # Find all stop_ids that match the given stop_name
+    for stop_id, stop_info in stops.items():
+        if stop_info.get('name') == stop_name:
+            stops_in_station.append(stop_id)
+
+    for ent in feed.entity:
+        if not ent.trip_update:
+            continue
+        for stu in ent.trip_update.stop_time_update:
+            if stu.stop_id in stops_in_station and stu.arrival and stu.arrival.time >= now:
+                mins = int((stu.arrival.time - now) // 60)
+                tid = ent.trip_update.trip.trip_id
+                arrivals.append((tid, mins, stu.stop_id, stop_name))
+
+    return arrivals
 
 def refresh_data(stops_file: str, feed_url: str) -> typing.Tuple[dict, gtfs_realtime_pb2.FeedMessage]:
     """
@@ -100,13 +125,49 @@ def refresh_data(stops_file: str, feed_url: str) -> typing.Tuple[dict, gtfs_real
     """
     pass
 
-def see_stop():
+def get_all_stops(feed: gtfs_realtime_pb2.FeedMessage, stops: dict) -> dict:
     """
-    Interactive console for querying train and stop data.
-    Commands:
-      - list trains
-      - list stops
-      - train <trip_id>
-      - stop <stop_id>
+    Get all stops that have predictions from the static GTFS data.
+    Returns: {stop_id: {name, code, lat, lon, ...}}
     """
-    pass
+    all_stops = {}
+
+    for ent in feed.entity:
+        if not ent.trip_update:
+            continue
+        tid = ent.trip_update.trip.trip_id
+        for stu in ent.trip_update.stop_time_update:
+            if not stu.arrival or not stu.arrival.time:
+                continue
+
+            stop_id = stu.stop_id
+            stop_name = stops.get(stop_id, {}).get('name', 'Unknown')
+            parent_station = stops.get(stop_id, {}).get('parent_station', 'None')
+
+            if stop_name not in all_stops:
+                all_stops[stop_name] = {
+                    'stop_id': stop_id,
+                    'name': stop_name,
+                    'code': stops.get(stop_id, {}).get('code', 'N/A'),
+                    'parent_station': parent_station,
+                }
+        
+    return all_stops
+
+if __name__ == "__main__":
+    #test the functions
+    stops = load_stops()
+    feed = fetch_feed()
+    next_by_train, by_stop = prepare_data(feed, stops)
+    print("Next by Train:", next_by_train)
+    print()  
+    print("By Stop:", by_stop)
+    
+    # test get all stops
+    all_stops = get_all_stops(feed, stops)
+    print("All Stops:", all_stops)
+
+    # test get_stop_arrivals
+    stop_name = 'Embarcadero'
+    arrivals = get_stop_arrivals(feed, stops, stop_name)
+    print(f"Arrivals at {stop_name}:", arrivals)

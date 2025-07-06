@@ -1,10 +1,11 @@
 import tkinter
 import sv_ttk
 from tkinter import ttk
-from bart_data import load_stops, fetch_feed, prepare_data, get_train_schedule, get_stop_arrivals, refresh_data
+from bart_data import load_stops, fetch_feed, prepare_data, get_train_schedule, get_stop_arrivals, refresh_data, get_all_stops
 stops = load_stops() # a dictionary of stops
 feed = fetch_feed() # a FeedMessage object
 next_by_train, by_stop = prepare_data(feed, stops) # process the feed and stops
+all_stops = get_all_stops(feed, stops)  # Get all stops with predictions
 
 def onClick(btn):
     textcontent = btn.cget("text")
@@ -27,40 +28,19 @@ def onClick(btn):
 
         show_output(output)
     
-    elif textcontent.startswith('see train: '):
-        print("Viewing Train Schedule...")
-        output = ""
-        # Extract train ID from the button text
-        train_id = textcontent.split(': ')[1]
-        schedule = get_train_schedule(feed, stops, train_id)
-        if not schedule:
-            output = f"No schedule found for train {train_id}."
-        
-        else:
-            output = f"Schedule for Train {train_id}:\n"
-            for stop_id, stop_name, minutes in schedule:
-                output += f"{stop_name} ({stop_id}) in {minutes} min\n"
-    
     elif textcontent == 'list stops':
         print("Listing Stops...")
         output = "Stop List:\n"
 
-        parent_stations = set()
-
-        for stop_id in sorted(by_stop):
-            stop_name = stops.get(stop_id, {}).get('name', 'Unknown')
-            parent_station = stops.get(stop_id, {}).get('parent_station', 'None')
-            if parent_station not in parent_stations:
-                parent_stations.add(parent_station)
-                output += f"{stop_name} ({stop_id}) - Parent Station: {parent_station}\n"
+        list_of_stops = get_all_stops(feed, stops)
         
-        output += "\nParent Stations:\n"
-        for parent in sorted(parent_stations):
-            output += f"{parent}\n"
+        for stop_name in sorted(list_of_stops):
+            parent_station = list_of_stops[stop_name]['parent_station']
+            stop_id = list_of_stops[stop_name]['stop_id']
+            output += f"{stop_name} ({stop_id}) - Parent Station: {parent_station}\n"
         
         show_output(output)
-    
-            
+        
     elif textcontent == 'exit':
         print("Exiting Application...")
         root.quit()
@@ -73,7 +53,7 @@ def show_output(text):
     outputBox.insert('end', text) # Insert new content
     outputBox.config(state='disabled') # Make it read-only again
 
-def testButton(train_id):
+def by_train(train_id):
     
     schedule = get_train_schedule(feed, stops, train_id)  # Example train ID
 
@@ -83,6 +63,19 @@ def testButton(train_id):
     else:
         for stop_name, stop_id, minutes in schedule:
             output += f"{stop_id} ({stop_name}) in {minutes} min\n"
+
+    show_output(output)
+
+def by_stop(stop_name):
+    arrivals = get_stop_arrivals(feed, stops, stop_name)  # Example stop ID
+
+    output = 'Stop Arrivals:\n'
+    if not arrivals:
+        output += f"No arrivals found for stop {stop_name}."
+    else:
+        for train_id, minutes, stop_id, stop_name in arrivals:
+            output += f"Train {train_id} at {stop_name} ({stop_id}) in {minutes} min\n"
+    
 
     show_output(output)
 
@@ -109,12 +102,19 @@ if __name__ == "__main__":
         buttonsList.append(button)
         #root.grid_rowconfigure(i, weight=1)  # Evenly distribute button rows
     
-    # Create a test button
+    # Create see train button
     trainList = [f"see train: {train_id}" for train_id in sorted(next_by_train.keys())]
     trainDropdown = ttk.Combobox(buttonsFrame, values=trainList, state='readonly')
-    trainDropdown.grid(row=len(buttonsList)+1, column=0, padx=5, pady=9, sticky='ew')  # Place test button in grid
-    selectTrainButton = ttk.Button(buttonsFrame, text="see train", command= lambda: testButton(trainDropdown.get().split(': ')[1]))
+    trainDropdown.grid(row=len(buttonsList)+1, column=0, padx=5, pady=9, sticky='ew')  # Place trains dropdown in grid
+    selectTrainButton = ttk.Button(buttonsFrame, text="see train", command= lambda: by_train(trainDropdown.get().split(': ')[1]))
     selectTrainButton.grid(row=len(buttonsList)+2, column=0, padx=5, pady=9, sticky='ew')  # Place test button in grid
+
+    # create see stop button
+    stopList = [f"see stop: {stop_id}" for stop_id in sorted(all_stops)]
+    stopDropdown = ttk.Combobox(buttonsFrame, values=stopList, state='readonly')
+    stopDropdown.grid(row=len(buttonsList)+3, column=0, padx=5, pady=9, sticky='ew')  # Place stop dropdown in grid
+    selectStopButton = ttk.Button(buttonsFrame, text="see stop", command= lambda: by_stop(stopDropdown.get().split(': ')[1]))
+    selectStopButton.grid(row=len(buttonsList)+4, column=0, padx=5, pady=9, sticky='ew')  # Place stop button in grid
 
     # Create a frame for output
     outputFrame = ttk.Frame(root)
