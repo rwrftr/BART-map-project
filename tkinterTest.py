@@ -1,51 +1,13 @@
 import tkinter
 import sv_ttk
 from tkinter import ttk
-from bart_data import load_stops, fetch_feed, prepare_data, get_train_schedule, get_stop_arrivals, refresh_data, get_all_stops
+from bart_data import load_stops, fetch_feed, getNextByTrain, get_train_schedule, get_stop_arrivals, refresh_data, get_all_stops
 
-stops = load_stops()  # a dictionary of stops
-feed = fetch_feed()  # a FeedMessage object
-nextByTrain, byStop = prepare_data(feed, stops)  # process the feed and stops
-allStops = get_all_stops(feed, stops)  # Get all stops with predictions
+STOPS_FILE = 'google_transit_20250113-20250808_v10/stops.txt'
+FEED_URL   = 'http://api.bart.gov/gtfsrt/tripupdate.aspx'
 
-def onClick(btn):
-    textContent = btn.cget("text")
-    print(textContent + " Button clicked!")
-
-    if textContent == 'refresh':
-        print("Refreshing data...")
-        # stops = load_stops()  # Reload stops
-        # feed = fetch_feed()  # Fetch the latest feed
-        # nextByTrain, byStop = prepare_data(feed, stops)  # Prepare data again
-        # output = "Data refreshed successfully.\n"
-        
-    elif textContent == 'list trains':
-        print("Listing Trains...")
-        output = "Train List:\n"
-
-        for trainId, (stopId, minutes) in sorted(nextByTrain.items()):
-            stopName = stops.get(stopId, {}).get('name', 'Unknown')
-            output += f"Train {trainId} → {stopName} ({stopId}) in {minutes} min\n"
-
-        showOutput(output)
-    
-    elif textContent == 'list stops':
-        print("Listing Stops...")
-        output = "Stop List:\n"
-
-        listOfStops = get_all_stops(feed, stops)
-        
-        for stopName in sorted(listOfStops):
-            parentStation = listOfStops[stopName]['parent_station']
-            stopId = listOfStops[stopName]['stop_id']
-            output += f"{stopName} ({stopId}) - Parent Station: {parentStation}\n"
-        
-        showOutput(output)
-        
-    elif textContent == 'exit':
-        print("Exiting Application...")
-        root.quit()
-        return
+# Load stops and fetch the feed
+stops, feed, nextByTrain, allStops = refresh_data(STOPS_FILE, FEED_URL)  # process the feed and stops
 
 def showOutput(text):
     # Function to display output in the text box
@@ -54,7 +16,38 @@ def showOutput(text):
     outputBox.insert('end', text)  # Insert new content
     outputBox.config(state='disabled')  # Make it read-only again
 
-def byTrain(trainId):
+def refreshBtnClick():
+    print("Refreshing data...")
+    global stops, feed, nextByTrain, allStops
+    stops, feed, nextByTrain, allStops = refresh_data(STOPS_FILE, FEED_URL)  # Refresh the data
+    output = "Data refreshed successfully.\n"
+    output += f"Loaded {len(stops)} stops and {len(nextByTrain)} trains.\n"
+    showOutput(output)
+
+def listTrainsBtnClick():
+    print("Listing Trains...")
+    output = "Train List:\n"
+
+    for trainId, (stopId, minutes) in sorted(nextByTrain.items()):
+        stopName = stops.get(stopId, {}).get('name', 'Unknown')
+        output += f"Train {trainId} → {stopName} ({stopId}) in {minutes} min\n"
+
+    showOutput(output)
+
+def listStopsBtnClick():
+    print("Listing Stops...")
+    output = "Stop List:\n"
+
+    listOfStops = get_all_stops(feed, stops)
+    
+    for stopName in sorted(listOfStops):
+        parentStation = listOfStops[stopName]['parent_station']
+        stopId = listOfStops[stopName]['stop_id']
+        output += f"{stopName} ({stopId}) - Parent Station: {parentStation}\n"
+    
+    showOutput(output)
+
+def byTrainBtnClick(trainId):
     schedule = get_train_schedule(feed, stops, trainId)  # Example train ID
 
     output = 'Train Schedule:\n'
@@ -66,7 +59,7 @@ def byTrain(trainId):
 
     showOutput(output)
 
-def byStop(stopName):
+def byStopBtnClick(stopName):
     arrivals = get_stop_arrivals(feed, stops, stopName)  # Example stop ID
 
     output = 'Stop Arrivals:\n'
@@ -81,40 +74,60 @@ def byStop(stopName):
 def createButtons(buttonsFrame, buttonsList):
     # refresh
     refreshButton = ttk.Button(buttonsFrame, text="refresh")
-    refreshButton.config(command=lambda btn=refreshButton: onClick(btn))
+    refreshButton.config(command=lambda: refreshBtnClick())
     refreshButton.grid(row=1, column=0, padx=5, pady=9, sticky='ew')
     buttonsList.append(refreshButton)
 
     # list trains
     listTrainsButton = ttk.Button(buttonsFrame, text="list trains")
-    listTrainsButton.config(command=lambda btn=listTrainsButton: onClick(btn))
+    listTrainsButton.config(command=lambda: listTrainsBtnClick())
     listTrainsButton.grid(row=2, column=0, padx=5, pady=9, sticky='ew')
     buttonsList.append(listTrainsButton)
 
     # list stops
     listStopsButton = ttk.Button(buttonsFrame, text="list stops")
-    listStopsButton.config(command=lambda btn=listStopsButton: onClick(btn))
+    listStopsButton.config(command=lambda: listStopsBtnClick())
     listStopsButton.grid(row=3, column=0, padx=5, pady=9, sticky='ew')
     buttonsList.append(listStopsButton)
     
+    # create train and stop dropdowns
+    createDropdowns(buttonsFrame, buttonsList)  # Create dropdowns and their buttons
+
     # exit
     exitButton = ttk.Button(buttonsFrame, text="exit")
-    exitButton.config(command=lambda btn=exitButton: onClick(btn))
-    exitButton.grid(row=4, column=0, padx=5, pady=9, sticky='ew')
+    exitButton.config(command=lambda: root.quit())
+    exitButton.grid(row=8, column=0, padx=5, pady=9, sticky='ew')
     buttonsList.append(exitButton)
 
+
 def createDropdowns(buttonsFrame, buttonsList):
-    pass
+    # Create see train button
+    trainList = [f"see train: {trainId}" for trainId in sorted(nextByTrain.keys())]
+    trainDropdown = ttk.Combobox(buttonsFrame, values=trainList, state='readonly')
+    trainDropdown.grid(row=len(buttonsList)+1, column=0, padx=5, pady=9, sticky='ew')  # Place trains dropdown in grid
+    selectTrainButton = ttk.Button(buttonsFrame, text="see train", command=lambda: byTrainBtnClick(trainDropdown.get().split(': ')[1]))
+    selectTrainButton.grid(row=len(buttonsList)+2, column=0, padx=5, pady=9, sticky='ew')  # Place test button in grid
+    buttonsList.append(trainDropdown)
+    buttonsList.append(selectTrainButton)
+
+    # create see stop button
+    stopList = [f"see stop: {stopId}" for stopId in sorted(allStops)]
+    stopDropdown = ttk.Combobox(buttonsFrame, values=stopList, state='readonly')
+    stopDropdown.grid(row=len(buttonsList)+1, column=0, padx=5, pady=9, sticky='ew')  # Place stop dropdown in grid
+    selectStopButton = ttk.Button(buttonsFrame, text="see stop", command=lambda: byStopBtnClick(stopDropdown.get().split(': ')[1]))
+    selectStopButton.grid(row=len(buttonsList)+2, column=0, padx=5, pady=9, sticky='ew')  # Place stop button in grid
+    buttonsList.append(stopDropdown)
+    buttonsList.append(selectStopButton)
 
 if __name__ == "__main__":
     # create the main application window
     root = tkinter.Tk()
-    root.geometry("1024x768")  # Set the window size
+    root.geometry("1024x768")
     root.title("SV TTK Example")
 
     # create all the buttons
     buttonsList = []
-    buttonsFrame = ttk.Frame(root)
+    buttonsFrame = ttk.Frame(root) 
     buttonsFrame.pack(side='left', padx=10, pady=10, fill='y', expand=True)
 
     buttonLabel = ttk.Label(buttonsFrame, text="Viewer Controls: ")
@@ -122,36 +135,18 @@ if __name__ == "__main__":
     
     createButtons(buttonsFrame, buttonsList)  # Create buttons
 
-    # Create see train button
-    trainList = [f"see train: {trainId}" for trainId in sorted(nextByTrain.keys())]
-    trainDropdown = ttk.Combobox(buttonsFrame, values=trainList, state='readonly')
-    trainDropdown.grid(row=len(buttonsList)+1, column=0, padx=5, pady=9, sticky='ew')  # Place trains dropdown in grid
-    selectTrainButton = ttk.Button(buttonsFrame, text="see train", command=lambda: byTrain(trainDropdown.get().split(': ')[1]))
-    selectTrainButton.grid(row=len(buttonsList)+2, column=0, padx=5, pady=9, sticky='ew')  # Place test button in grid
-
-    # create see stop button
-    stopList = [f"see stop: {stopId}" for stopId in sorted(allStops)]
-    stopDropdown = ttk.Combobox(buttonsFrame, values=stopList, state='readonly')
-    stopDropdown.grid(row=len(buttonsList)+3, column=0, padx=5, pady=9, sticky='ew')  # Place stop dropdown in grid
-    selectStopButton = ttk.Button(buttonsFrame, text="see stop", command=lambda: byStop(stopDropdown.get().split(': ')[1]))
-    selectStopButton.grid(row=len(buttonsList)+4, column=0, padx=5, pady=9, sticky='ew')  # Place stop button in grid
-
-    # Create a frame for output
+    # create the output box
     outputFrame = ttk.Frame(root)
     outputFrame.pack(side='right', padx=10, pady=10, fill='both', expand=True)
 
-    # Output label
     label = ttk.Label(outputFrame, text="Output: ")
     label.pack(padx=10, pady=5)
 
-    # Create a text box for output
     global outputBox  # Make outputBox accessible in onClick
     outputBox = tkinter.Text(outputFrame, width=100, height=50)
     outputBox.pack(padx=10, pady=10, fill='both', expand=True)
     outputBox.config(state='disabled')  # Make it read-only
 
-    # root.grid_columnconfigure(0, weight=0)  # Buttons column
-    # root.grid_columnconfigure(1, weight=1)  # Output column
-
+    # Set the theme
     sv_ttk.set_theme("dark")
     root.mainloop()

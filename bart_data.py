@@ -44,34 +44,28 @@ def fetch_feed(url: str = FEED_URL) -> gtfs_realtime_pb2.FeedMessage:
     
     return feed
 
-def prepare_data(feed: gtfs_realtime_pb2.FeedMessage, stops: dict) -> typing.Tuple[dict, dict]:
+def getNextByTrain(feed: gtfs_realtime_pb2.FeedMessage, stops: dict) -> dict:
     """
-    Process the feed and stops to build:
-      - next_by_train: {train_id: {(next_stop_id, minutes)}
-      - by_stop: {stop_id: [(train_id, minutes)]}
-    Returns: (next_by_train, by_stop)
+    Get the next stop and minutes for each train_id.
+    Returns: {train_id: (stop_id, minutes)}
     """
 
     now = datetime.now(timezone.utc).timestamp()
     next_by_train = {}
-    by_stop = defaultdict(list)
 
     for ent in feed.entity:
         if not ent.trip_update:
             continue
         tid = ent.trip_update.trip.trip_id
+        
         # Find the first upcoming stop for each trip
         for stu in ent.trip_update.stop_time_update:
-            if stu.arrival and stu.arrival.time >= now:
+            if tid not in next_by_train and stu.arrival and stu.arrival.time >= now:
                 mins = int((stu.arrival.time - now) // 60)
                 sid = stu.stop_id
-                # Record only the next stop for this train
-                if tid not in next_by_train:
-                    next_by_train[tid] = (sid, mins)
-                # Record arrival at this stop
-                by_stop[sid].append((tid, mins))
+                next_by_train[tid] = (sid, mins)
                 break
-    return next_by_train, by_stop
+    return next_by_train
 
 def get_train_schedule(feed: gtfs_realtime_pb2.FeedMessage, stops: dict, train_id: str) -> list:
     """
@@ -118,13 +112,6 @@ def get_stop_arrivals(feed: gtfs_realtime_pb2.FeedMessage, stops: dict, stop_nam
 
     return arrivals
 
-def refresh_data(stops_file: str, feed_url: str) -> typing.Tuple[dict, gtfs_realtime_pb2.FeedMessage]:
-    """
-    Reload stops and fetch the latest feed.
-    Returns: (stops, feed)
-    """
-    pass
-
 def get_all_stops(feed: gtfs_realtime_pb2.FeedMessage, stops: dict) -> dict:
     """
     Get all stops that have predictions from the static GTFS data.
@@ -154,15 +141,23 @@ def get_all_stops(feed: gtfs_realtime_pb2.FeedMessage, stops: dict) -> dict:
         
     return all_stops
 
+def refresh_data(stops_file: str, feed_url: str) -> typing.Tuple[dict, gtfs_realtime_pb2.FeedMessage, dict, dict, dict]:
+    """
+    Reload stops and fetch the latest feed.
+    Returns: (stops, feed, nextByTrain, byStop, allStops)
+    """
+    stops = load_stops(stops_file)
+    feed = fetch_feed(feed_url)
+
+    next_by_train = getNextByTrain(feed, stops)
+    allStops = get_all_stops(feed, stops)
+
+    return stops, feed, next_by_train, allStops
+
 if __name__ == "__main__":
-    
+
     #test the functions
-    stops = load_stops()
-    feed = fetch_feed()
-    next_by_train, by_stop = prepare_data(feed, stops)
-    print("Next by Train:", next_by_train)
-    print()  
-    print("By Stop:", by_stop)
+    stops, feed, getNextByTrain, allStops = refresh_data(STOPS_FILE, FEED_URL)
     
     # test get all stops
     all_stops = get_all_stops(feed, stops)
