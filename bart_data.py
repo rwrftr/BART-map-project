@@ -7,7 +7,6 @@ from google.transit import gtfs_realtime_pb2
 
 STOPS_FILE = 'google_transit_20250113-20250808_v10/stops.txt'
 FEED_URL   = 'http://api.bart.gov/gtfsrt/tripupdate.aspx'
-OUTPUT_FILE = 'stops_dict.txt'
 
 def load_stops(path: str = STOPS_FILE) -> dict:
     """
@@ -24,10 +23,6 @@ def load_stops(path: str = STOPS_FILE) -> dict:
                                      'zone_id': row['zone_id'],
                                      'parent_station': row['parent_station'],
                                      'platform_code': row['platform_code'],}
-            
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        for row in stops:
-            f.write(f"{row}: {stops[row]}\n")
         
     return stops
 

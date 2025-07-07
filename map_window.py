@@ -1,28 +1,35 @@
+import datetime
 import tkinter
 import sv_ttk
+from datetime import datetime
 from tkinter import ttk
-from bart_data import load_stops, fetch_feed, getNextByTrain, get_train_schedule, get_stop_arrivals, refresh_data, get_all_stops
+from bart_data import get_train_schedule, get_stop_arrivals, refresh_data, get_all_stops
 
 STOPS_FILE = 'google_transit_20250113-20250808_v10/stops.txt'
 FEED_URL   = 'http://api.bart.gov/gtfsrt/tripupdate.aspx'
 
 # Load stops and fetch the feed
 stops, feed, nextByTrain, allStops = refresh_data(STOPS_FILE, FEED_URL)  # process the feed and stops
+prevFunction = None
 
-def showOutput(text):
-    # Function to display output in the text box
+def showOutput(text, currentFunction = prevFunction):
+    # display output in the text box
     outputBox.config(state='normal')  # Make it editable
     outputBox.delete(1.0, 'end')  # Clear previous content
     outputBox.insert('end', text)  # Insert new content
     outputBox.config(state='disabled')  # Make it read-only again
+    
+    # update prevFunction global var
+    global prevFunction
+    prevFunction = currentFunction
 
 def refreshBtnClick():
     print("Refreshing data...")
     global stops, feed, nextByTrain, allStops
     stops, feed, nextByTrain, allStops = refresh_data(STOPS_FILE, FEED_URL)  # Refresh the data
-    output = "Data refreshed successfully.\n"
-    output += f"Loaded {len(stops)} stops and {len(nextByTrain)} trains.\n"
-    showOutput(output)
+    print("Data refreshed successfully.")
+    print(f"Loaded {len(stops)} stops and {len(nextByTrain)} trains.\n")
+    prevFunction()
 
 def listTrainsBtnClick():
     print("Listing Trains...")
@@ -32,7 +39,7 @@ def listTrainsBtnClick():
         stopName = stops.get(stopId, {}).get('name', 'Unknown')
         output += f"Train {trainId} → {stopName} ({stopId}) in {minutes} min\n"
 
-    showOutput(output)
+    showOutput(output, listTrainsBtnClick)
 
 def listStopsBtnClick():
     print("Listing Stops...")
@@ -45,31 +52,31 @@ def listStopsBtnClick():
         stopId = listOfStops[stopName]['stop_id']
         output += f"{stopName} ({stopId}) - Parent Station: {parentStation}\n"
     
-    showOutput(output)
+    showOutput(output, listStopsBtnClick)
 
 def byTrainBtnClick(trainId):
     schedule = get_train_schedule(feed, stops, trainId)  # Example train ID
 
-    output = 'Train Schedule:\n'
+    output = f'Schedule for trip ID {trainId} as of {datetime.now().strftime("%I:%M %p")}: \n'
     if not schedule:
         output += f"No schedule found for train {trainId}."
     else:
         for stopName, stopId, minutes in schedule:
             output += f"{stopId} ({stopName}) in {minutes} min\n"
 
-    showOutput(output)
+    showOutput(output, lambda: byTrainBtnClick(trainId))
 
 def byStopBtnClick(stopName):
     arrivals = get_stop_arrivals(feed, stops, stopName)  # Example stop ID
 
-    output = 'Stop Arrivals:\n'
+    output = f'Arrivals for {stopName} as of {datetime.now().strftime("%I:%M %p")}:\n'
     if not arrivals:
         output += f"No arrivals found for stop {stopName}."
     else:
         for trainId, minutes, stopId, stopName in arrivals:
             output += f"Train {trainId} at {stopName} ({stopId}) in {minutes} min\n"
     
-    showOutput(output)
+    showOutput(output, lambda: byStopBtnClick(stopName))
 
 def createButtons(buttonsFrame, buttonsList):
     # refresh
@@ -98,7 +105,6 @@ def createButtons(buttonsFrame, buttonsList):
     exitButton.config(command=lambda: root.quit())
     exitButton.grid(row=8, column=0, padx=5, pady=9, sticky='ew')
     buttonsList.append(exitButton)
-
 
 def createDropdowns(buttonsFrame, buttonsList):
     # Create see train button
