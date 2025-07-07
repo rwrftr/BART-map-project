@@ -1,0 +1,8385 @@
+header {
+  gtfs_realtime_version: "1.0"
+  incrementality: FULL_DATASET
+  timestamp: 1751687279
+}
+entity {
+  id: "100194820"
+  trip_update {
+    trip {
+      trip_id: "100194820"
+      schedule_relationship: ADDED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "M80-1"
+      arrival {
+        delay: 564
+        time: 1751687261
+        uncertainty: 30
+      }
+      departure {
+        delay: 564
+        time: 1751687271
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677807"
+  trip_update {
+    trip {
+      trip_id: "1677807"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "S40-1"
+      arrival {
+        delay: 44
+        time: 1751687643
+        uncertainty: 30
+      }
+      departure {
+        delay: 44
+        time: 1751687661
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677692"
+  trip_update {
+    trip {
+      trip_id: "1677692"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "2-door"
+    }
+    stop_time_update {
+      stop_id: "R60-2"
+      arrival {
+        delay: 0
+        time: 1751688050
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688055
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R50-2"
+      arrival {
+        delay: 0
+        time: 1751688398
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688422
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R40-2"
+      arrival {
+        delay: 0
+        time: 1751688586
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688610
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R30-2"
+      arrival {
+        delay: 0
+        time: 1751688794
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688818
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R20-2"
+      arrival {
+        delay: 0
+        time: 1751688944
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688968
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R10-2"
+      arrival {
+        delay: 0
+        time: 1751689088
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689106
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K30-2"
+      arrival {
+        delay: 0
+        time: 1751689284
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689464
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K20-2"
+      arrival {
+        delay: 0
+        time: 1751689643
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689691
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K10-2"
+      arrival {
+        delay: 0
+        time: 1751689769
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689817
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A10-1"
+      arrival {
+        delay: 0
+        time: 1751689967
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690003
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A20-1"
+      arrival {
+        delay: 0
+        time: 1751690220
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690238
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A30-1"
+      arrival {
+        delay: 0
+        time: 1751690412
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690430
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A40-1"
+      arrival {
+        delay: 0
+        time: 1751690657
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690675
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A50-1"
+      arrival {
+        delay: 0
+        time: 1751690883
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690919
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A60-1"
+      arrival {
+        delay: 0
+        time: 1751691152
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691170
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A70-1"
+      arrival {
+        delay: 0
+        time: 1751691405
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691423
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A80-1"
+      arrival {
+        delay: 0
+        time: 1751691729
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691747
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A90-1"
+      arrival {
+        delay: 0
+        time: 1751691991
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692009
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "S20-1"
+      arrival {
+        delay: 0
+        time: 1751692367
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692385
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "S40-1"
+      arrival {
+        delay: 0
+        time: 1751692828
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692846
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677631"
+  trip_update {
+    trip {
+      trip_id: "1677631"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "R30-1"
+      arrival {
+        delay: 162
+        time: 1751687272
+        uncertainty: 30
+      }
+      departure {
+        delay: 162
+        time: 1751687290
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R40-1"
+      arrival {
+        delay: 157
+        time: 1751687460
+        uncertainty: 30
+      }
+      departure {
+        delay: 157
+        time: 1751687478
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R50-1"
+      arrival {
+        delay: 146
+        time: 1751687629
+        uncertainty: 30
+      }
+      departure {
+        delay: 146
+        time: 1751687647
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677693"
+  trip_update {
+    trip {
+      trip_id: "1677693"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "R60-2"
+      arrival {
+        delay: 0
+        time: 1751689250
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689255
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R50-2"
+      arrival {
+        delay: 0
+        time: 1751689598
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689622
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R40-2"
+      arrival {
+        delay: 0
+        time: 1751689786
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689810
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R30-2"
+      arrival {
+        delay: 0
+        time: 1751689994
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690018
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R20-2"
+      arrival {
+        delay: 0
+        time: 1751690144
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690168
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R10-2"
+      arrival {
+        delay: 0
+        time: 1751690288
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690306
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K30-2"
+      arrival {
+        delay: 0
+        time: 1751690484
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690664
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K20-2"
+      arrival {
+        delay: 0
+        time: 1751690843
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690891
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K10-2"
+      arrival {
+        delay: 0
+        time: 1751690969
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691017
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A10-1"
+      arrival {
+        delay: 0
+        time: 1751691167
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691203
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A20-1"
+      arrival {
+        delay: 0
+        time: 1751691420
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691438
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A30-1"
+      arrival {
+        delay: 0
+        time: 1751691612
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691630
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A40-1"
+      arrival {
+        delay: 0
+        time: 1751691857
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691875
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A50-1"
+      arrival {
+        delay: 0
+        time: 1751692083
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692119
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A60-1"
+      arrival {
+        delay: 0
+        time: 1751692352
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692370
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A70-1"
+      arrival {
+        delay: 0
+        time: 1751692605
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692623
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A80-1"
+      arrival {
+        delay: 0
+        time: 1751692929
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692947
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A90-1"
+      arrival {
+        delay: 0
+        time: 1751693191
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751693209
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "S20-1"
+      arrival {
+        delay: 0
+        time: 1751693567
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751693585
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "S40-1"
+      arrival {
+        delay: 0
+        time: 1751694028
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751694046
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677632"
+  trip_update {
+    trip {
+      trip_id: "1677632"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "A10-2"
+      arrival {
+        delay: 74
+        time: 1751687383
+        uncertainty: 30
+      }
+      departure {
+        delay: 74
+        time: 1751687401
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K10-1"
+      arrival {
+        delay: 32
+        time: 1751687515
+        uncertainty: 30
+      }
+      departure {
+        delay: 32
+        time: 1751687536
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K20-1"
+      arrival {
+        delay: 30
+        time: 1751687598
+        uncertainty: 30
+      }
+      departure {
+        delay: 30
+        time: 1751687621
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K30-1"
+      arrival {
+        delay: 0
+        time: 1751687813
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687842
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R10-1"
+      arrival {
+        delay: 0
+        time: 1751688029
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688047
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R20-1"
+      arrival {
+        delay: 0
+        time: 1751688167
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688191
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R30-1"
+      arrival {
+        delay: 0
+        time: 1751688311
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688329
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R40-1"
+      arrival {
+        delay: 0
+        time: 1751688503
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688521
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R50-1"
+      arrival {
+        delay: 0
+        time: 1751688684
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688702
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677633"
+  trip_update {
+    trip {
+      trip_id: "1677633"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "A60-2"
+      arrival {
+        delay: 68
+        time: 1751687386
+        uncertainty: 30
+      }
+      departure {
+        delay: 68
+        time: 1751687403
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A50-2"
+      arrival {
+        delay: 49
+        time: 1751687609
+        uncertainty: 30
+      }
+      departure {
+        delay: 49
+        time: 1751687627
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A40-2"
+      arrival {
+        delay: 34
+        time: 1751687823
+        uncertainty: 30
+      }
+      departure {
+        delay: 34
+        time: 1751687841
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A30-2"
+      arrival {
+        delay: 34
+        time: 1751688075
+        uncertainty: 30
+      }
+      departure {
+        delay: 34
+        time: 1751688093
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A20-2"
+      arrival {
+        delay: 0
+        time: 1751688241
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688259
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A10-2"
+      arrival {
+        delay: 0
+        time: 1751688510
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688528
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K10-1"
+      arrival {
+        delay: 0
+        time: 1751688684
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688708
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K20-1"
+      arrival {
+        delay: 0
+        time: 1751688768
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688822
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K30-1"
+      arrival {
+        delay: 0
+        time: 1751689013
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689055
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R10-1"
+      arrival {
+        delay: 0
+        time: 1751689229
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689247
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R20-1"
+      arrival {
+        delay: 0
+        time: 1751689367
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689391
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R30-1"
+      arrival {
+        delay: 0
+        time: 1751689511
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689529
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R40-1"
+      arrival {
+        delay: 0
+        time: 1751689703
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689721
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R50-1"
+      arrival {
+        delay: 0
+        time: 1751689884
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689902
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677634"
+  trip_update {
+    trip {
+      trip_id: "1677634"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "S20-2"
+      arrival {
+        delay: 33
+        time: 1751687377
+        uncertainty: 30
+      }
+      departure {
+        delay: 33
+        time: 1751687395
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A90-2"
+      arrival {
+        delay: 0
+        time: 1751687721
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687739
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A80-2"
+      arrival {
+        delay: 0
+        time: 1751687974
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687992
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A70-2"
+      arrival {
+        delay: 0
+        time: 1751688278
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688296
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A60-2"
+      arrival {
+        delay: 0
+        time: 1751688519
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688537
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A50-2"
+      arrival {
+        delay: 0
+        time: 1751688760
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688778
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A40-2"
+      arrival {
+        delay: 0
+        time: 1751688989
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689007
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A30-2"
+      arrival {
+        delay: 0
+        time: 1751689242
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689260
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A20-2"
+      arrival {
+        delay: 0
+        time: 1751689441
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689459
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A10-2"
+      arrival {
+        delay: 0
+        time: 1751689710
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689728
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K10-1"
+      arrival {
+        delay: 0
+        time: 1751689884
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689908
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K20-1"
+      arrival {
+        delay: 0
+        time: 1751689968
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690022
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K30-1"
+      arrival {
+        delay: 0
+        time: 1751690213
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690255
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R10-1"
+      arrival {
+        delay: 0
+        time: 1751690429
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690447
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R20-1"
+      arrival {
+        delay: 0
+        time: 1751690567
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690591
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R30-1"
+      arrival {
+        delay: 0
+        time: 1751690711
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690729
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R40-1"
+      arrival {
+        delay: 0
+        time: 1751690903
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690921
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R50-1"
+      arrival {
+        delay: 0
+        time: 1751691084
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691102
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677635"
+  trip_update {
+    trip {
+      trip_id: "1677635"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "S50-2"
+      arrival {
+        delay: 0
+        time: 1751687262
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687847
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "S40-2"
+      arrival {
+        delay: 0
+        time: 1751688088
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688106
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "S20-2"
+      arrival {
+        delay: 0
+        time: 1751688545
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688563
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A90-2"
+      arrival {
+        delay: 0
+        time: 1751688921
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688939
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A80-2"
+      arrival {
+        delay: 0
+        time: 1751689174
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689192
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A70-2"
+      arrival {
+        delay: 0
+        time: 1751689478
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689496
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A60-2"
+      arrival {
+        delay: 0
+        time: 1751689719
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689737
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A50-2"
+      arrival {
+        delay: 0
+        time: 1751689960
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689978
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A40-2"
+      arrival {
+        delay: 0
+        time: 1751690189
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690207
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A30-2"
+      arrival {
+        delay: 0
+        time: 1751690442
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690460
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A20-2"
+      arrival {
+        delay: 0
+        time: 1751690641
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690659
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A10-2"
+      arrival {
+        delay: 0
+        time: 1751690910
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690928
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K10-1"
+      arrival {
+        delay: 0
+        time: 1751691084
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691108
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K20-1"
+      arrival {
+        delay: 0
+        time: 1751691168
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691222
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K30-1"
+      arrival {
+        delay: 0
+        time: 1751691413
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691455
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R10-1"
+      arrival {
+        delay: 0
+        time: 1751691629
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691647
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R20-1"
+      arrival {
+        delay: 0
+        time: 1751691767
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691791
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R30-1"
+      arrival {
+        delay: 0
+        time: 1751691911
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691929
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R40-1"
+      arrival {
+        delay: 0
+        time: 1751692103
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692121
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R50-1"
+      arrival {
+        delay: 0
+        time: 1751692284
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692302
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677688"
+  trip_update {
+    trip {
+      trip_id: "1677688"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "S20-1"
+      arrival {
+        delay: 34
+        time: 1751687600
+        uncertainty: 30
+      }
+      departure {
+        delay: 34
+        time: 1751687617
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "S40-1"
+      arrival {
+        delay: 0
+        time: 1751688028
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688046
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677636"
+  trip_update {
+    trip {
+      trip_id: "1677636"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "S50-2"
+      arrival {
+        delay: 0
+        time: 1751688316
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689047
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "S40-2"
+      arrival {
+        delay: 0
+        time: 1751689288
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689306
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "S20-2"
+      arrival {
+        delay: 0
+        time: 1751689745
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689763
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A90-2"
+      arrival {
+        delay: 0
+        time: 1751690121
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690139
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A80-2"
+      arrival {
+        delay: 0
+        time: 1751690374
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690392
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A70-2"
+      arrival {
+        delay: 0
+        time: 1751690678
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690696
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A60-2"
+      arrival {
+        delay: 0
+        time: 1751690919
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690937
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A50-2"
+      arrival {
+        delay: 0
+        time: 1751691160
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691178
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A40-2"
+      arrival {
+        delay: 0
+        time: 1751691389
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691407
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A30-2"
+      arrival {
+        delay: 0
+        time: 1751691642
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691660
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A20-2"
+      arrival {
+        delay: 0
+        time: 1751691841
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691859
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A10-2"
+      arrival {
+        delay: 0
+        time: 1751692110
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692128
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K10-1"
+      arrival {
+        delay: 0
+        time: 1751692284
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692308
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K20-1"
+      arrival {
+        delay: 0
+        time: 1751692368
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692422
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K30-1"
+      arrival {
+        delay: 0
+        time: 1751692613
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692655
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R10-1"
+      arrival {
+        delay: 0
+        time: 1751692829
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692847
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R20-1"
+      arrival {
+        delay: 0
+        time: 1751692967
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692991
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R30-1"
+      arrival {
+        delay: 0
+        time: 1751693111
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751693129
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R40-1"
+      arrival {
+        delay: 0
+        time: 1751693303
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751693321
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R50-1"
+      arrival {
+        delay: 0
+        time: 1751693484
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751693502
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677689"
+  trip_update {
+    trip {
+      trip_id: "1677689"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "A50-1"
+      arrival {
+        delay: 73
+        time: 1751687355
+        uncertainty: 30
+      }
+      departure {
+        delay: 73
+        time: 1751687384
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A60-1"
+      arrival {
+        delay: 33
+        time: 1751687585
+        uncertainty: 30
+      }
+      departure {
+        delay: 33
+        time: 1751687603
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A70-1"
+      arrival {
+        delay: 34
+        time: 1751687838
+        uncertainty: 30
+      }
+      departure {
+        delay: 34
+        time: 1751687856
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A80-1"
+      arrival {
+        delay: 32
+        time: 1751688160
+        uncertainty: 30
+      }
+      departure {
+        delay: 32
+        time: 1751688178
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A90-1"
+      arrival {
+        delay: 0
+        time: 1751688391
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688409
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "S20-1"
+      arrival {
+        delay: 0
+        time: 1751688767
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688785
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "S40-1"
+      arrival {
+        delay: 0
+        time: 1751689228
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689246
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677690"
+  trip_update {
+    trip {
+      trip_id: "1677690"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "2-door"
+    }
+    stop_time_update {
+      stop_id: "K20-2"
+      arrival {
+        delay: 34
+        time: 1751687276
+        uncertainty: 30
+      }
+      departure {
+        delay: 34
+        time: 1751687314
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K10-2"
+      arrival {
+        delay: 0
+        time: 1751687369
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687412
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A10-1"
+      arrival {
+        delay: 0
+        time: 1751687567
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687603
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A20-1"
+      arrival {
+        delay: 0
+        time: 1751687820
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687838
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A30-1"
+      arrival {
+        delay: 0
+        time: 1751688012
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688030
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A40-1"
+      arrival {
+        delay: 0
+        time: 1751688257
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688275
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A50-1"
+      arrival {
+        delay: 0
+        time: 1751688483
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688519
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A60-1"
+      arrival {
+        delay: 0
+        time: 1751688752
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688770
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A70-1"
+      arrival {
+        delay: 0
+        time: 1751689005
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689023
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A80-1"
+      arrival {
+        delay: 0
+        time: 1751689329
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689347
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A90-1"
+      arrival {
+        delay: 0
+        time: 1751689591
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689609
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "S20-1"
+      arrival {
+        delay: 0
+        time: 1751689967
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689985
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "S40-1"
+      arrival {
+        delay: 0
+        time: 1751690428
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690446
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677691"
+  trip_update {
+    trip {
+      trip_id: "1677691"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "2-door"
+    }
+    stop_time_update {
+      stop_id: "R40-2"
+      arrival {
+        delay: 16
+        time: 1751687402
+        uncertainty: 30
+      }
+      departure {
+        delay: 16
+        time: 1751687423
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R30-2"
+      arrival {
+        delay: 0
+        time: 1751687594
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687617
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R20-2"
+      arrival {
+        delay: 0
+        time: 1751687744
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687768
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R10-2"
+      arrival {
+        delay: 0
+        time: 1751687888
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687906
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K30-2"
+      arrival {
+        delay: 0
+        time: 1751688084
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688264
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K20-2"
+      arrival {
+        delay: 0
+        time: 1751688443
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688491
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K10-2"
+      arrival {
+        delay: 0
+        time: 1751688569
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688617
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A10-1"
+      arrival {
+        delay: 0
+        time: 1751688767
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688803
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A20-1"
+      arrival {
+        delay: 0
+        time: 1751689020
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689038
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A30-1"
+      arrival {
+        delay: 0
+        time: 1751689212
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689230
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A40-1"
+      arrival {
+        delay: 0
+        time: 1751689457
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689475
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A50-1"
+      arrival {
+        delay: 0
+        time: 1751689683
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689719
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A60-1"
+      arrival {
+        delay: 0
+        time: 1751689952
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689970
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A70-1"
+      arrival {
+        delay: 0
+        time: 1751690205
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690223
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A80-1"
+      arrival {
+        delay: 0
+        time: 1751690529
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690547
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A90-1"
+      arrival {
+        delay: 0
+        time: 1751690791
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690809
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "S20-1"
+      arrival {
+        delay: 0
+        time: 1751691167
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691185
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "S40-1"
+      arrival {
+        delay: 0
+        time: 1751691628
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691646
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677554"
+  trip_update {
+    trip {
+      trip_id: "1677554"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "Y10-1"
+      arrival {
+        delay: 0
+        time: 1751686963
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751686981
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "W30-2"
+      arrival {
+        delay: 0
+        time: 1751687467
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687485
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "W20-2"
+      arrival {
+        delay: 0
+        time: 1751687659
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687677
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "W10-2"
+      arrival {
+        delay: 0
+        time: 1751687845
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687881
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M90-2"
+      arrival {
+        delay: 0
+        time: 1751688058
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688100
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M80-2"
+      arrival {
+        delay: 0
+        time: 1751688304
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688322
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M70-2"
+      arrival {
+        delay: 0
+        time: 1751688442
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688460
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M60-2"
+      arrival {
+        delay: 0
+        time: 1751688604
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688622
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M50-2"
+      arrival {
+        delay: 0
+        time: 1751688724
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688748
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M40-2"
+      arrival {
+        delay: 0
+        time: 1751688868
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688892
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M30-2"
+      arrival {
+        delay: 0
+        time: 1751688964
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688994
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M20-2"
+      arrival {
+        delay: 0
+        time: 1751689060
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689090
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M16-2"
+      arrival {
+        delay: 0
+        time: 1751689156
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689192
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M10-2"
+      arrival {
+        delay: 0
+        time: 1751689588
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689618
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K10-3"
+      arrival {
+        delay: 0
+        time: 1751689884
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689908
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K20-3"
+      arrival {
+        delay: 0
+        time: 1751689968
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690022
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K30-3"
+      arrival {
+        delay: 0
+        time: 1751690213
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690237
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C10-1"
+      arrival {
+        delay: 0
+        time: 1751690381
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690399
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C20-1"
+      arrival {
+        delay: 0
+        time: 1751690702
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690720
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C30-1"
+      arrival {
+        delay: 0
+        time: 1751690990
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691008
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C40-1"
+      arrival {
+        delay: 0
+        time: 1751691263
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691287
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C50-1"
+      arrival {
+        delay: 0
+        time: 1751691440
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691458
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C60-1"
+      arrival {
+        delay: 0
+        time: 1751691754
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691772
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C70-1"
+      arrival {
+        delay: 0
+        time: 1751691976
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691994
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C80-1"
+      arrival {
+        delay: 0
+        time: 1751692368
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692392
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677430"
+  trip_update {
+    trip {
+      trip_id: "1677430"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "W30-1"
+      arrival {
+        delay: 57
+        time: 1751687373
+        uncertainty: 30
+      }
+      departure {
+        delay: 57
+        time: 1751687391
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677555"
+  trip_update {
+    trip {
+      trip_id: "1677555"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "Y10-1"
+      arrival {
+        delay: 0
+        time: 1751687604
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688467
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "W30-2"
+      arrival {
+        delay: 0
+        time: 1751688667
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688685
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "W20-2"
+      arrival {
+        delay: 0
+        time: 1751688859
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688877
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "W10-2"
+      arrival {
+        delay: 0
+        time: 1751689045
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689081
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M90-2"
+      arrival {
+        delay: 0
+        time: 1751689258
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689300
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M80-2"
+      arrival {
+        delay: 0
+        time: 1751689504
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689522
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M70-2"
+      arrival {
+        delay: 0
+        time: 1751689642
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689660
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M60-2"
+      arrival {
+        delay: 0
+        time: 1751689804
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689822
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M50-2"
+      arrival {
+        delay: 0
+        time: 1751689924
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689948
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M40-2"
+      arrival {
+        delay: 0
+        time: 1751690068
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690092
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M30-2"
+      arrival {
+        delay: 0
+        time: 1751690164
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690194
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M20-2"
+      arrival {
+        delay: 0
+        time: 1751690260
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690290
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M16-2"
+      arrival {
+        delay: 0
+        time: 1751690356
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690392
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M10-2"
+      arrival {
+        delay: 0
+        time: 1751690788
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690818
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K10-3"
+      arrival {
+        delay: 0
+        time: 1751691084
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691108
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K20-3"
+      arrival {
+        delay: 0
+        time: 1751691168
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691222
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K30-3"
+      arrival {
+        delay: 0
+        time: 1751691413
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691437
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C10-1"
+      arrival {
+        delay: 0
+        time: 1751691581
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691599
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C20-1"
+      arrival {
+        delay: 0
+        time: 1751691902
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691920
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C30-1"
+      arrival {
+        delay: 0
+        time: 1751692190
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692208
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C40-1"
+      arrival {
+        delay: 0
+        time: 1751692463
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692487
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C50-1"
+      arrival {
+        delay: 0
+        time: 1751692640
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692658
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C60-1"
+      arrival {
+        delay: 0
+        time: 1751692954
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692972
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C70-1"
+      arrival {
+        delay: 0
+        time: 1751693176
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751693194
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C80-1"
+      arrival {
+        delay: 0
+        time: 1751693568
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751693592
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677431"
+  trip_update {
+    trip {
+      trip_id: "1677431"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "M60-1"
+      arrival {
+        delay: 15
+        time: 1751687335
+        uncertainty: 30
+      }
+      departure {
+        delay: 15
+        time: 1751687353
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M70-1"
+      arrival {
+        delay: 0
+        time: 1751687489
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687507
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M80-1"
+      arrival {
+        delay: 0
+        time: 1751687627
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687645
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M90-3"
+      arrival {
+        delay: 0
+        time: 1751687876
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687924
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "W10-1"
+      arrival {
+        delay: 0
+        time: 1751688144
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688162
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "W20-1"
+      arrival {
+        delay: 0
+        time: 1751688324
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688342
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "W30-1"
+      arrival {
+        delay: 0
+        time: 1751688516
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688534
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677556"
+  trip_update {
+    trip {
+      trip_id: "1677556"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "Y10-1"
+      arrival {
+        delay: 0
+        time: 1751688804
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689667
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "W30-2"
+      arrival {
+        delay: 0
+        time: 1751689867
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689885
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "W20-2"
+      arrival {
+        delay: 0
+        time: 1751690059
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690077
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "W10-2"
+      arrival {
+        delay: 0
+        time: 1751690245
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690281
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M90-2"
+      arrival {
+        delay: 0
+        time: 1751690458
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690500
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M80-2"
+      arrival {
+        delay: 0
+        time: 1751690704
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690722
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M70-2"
+      arrival {
+        delay: 0
+        time: 1751690842
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690860
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M60-2"
+      arrival {
+        delay: 0
+        time: 1751691004
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691022
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M50-2"
+      arrival {
+        delay: 0
+        time: 1751691124
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691148
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M40-2"
+      arrival {
+        delay: 0
+        time: 1751691268
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691292
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M30-2"
+      arrival {
+        delay: 0
+        time: 1751691364
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691394
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M20-2"
+      arrival {
+        delay: 0
+        time: 1751691460
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691490
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M16-2"
+      arrival {
+        delay: 0
+        time: 1751691556
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691592
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M10-2"
+      arrival {
+        delay: 0
+        time: 1751691988
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692018
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K10-3"
+      arrival {
+        delay: 0
+        time: 1751692284
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692308
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K20-3"
+      arrival {
+        delay: 0
+        time: 1751692368
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692422
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K30-3"
+      arrival {
+        delay: 0
+        time: 1751692613
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692637
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C10-1"
+      arrival {
+        delay: 0
+        time: 1751692781
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692799
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C20-1"
+      arrival {
+        delay: 0
+        time: 1751693102
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751693120
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C30-1"
+      arrival {
+        delay: 0
+        time: 1751693390
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751693408
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C40-1"
+      arrival {
+        delay: 0
+        time: 1751693663
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751693687
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C50-1"
+      arrival {
+        delay: 0
+        time: 1751693840
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751693858
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C60-1"
+      arrival {
+        delay: 0
+        time: 1751694154
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751694172
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C70-1"
+      arrival {
+        delay: 0
+        time: 1751694376
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751694394
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C80-1"
+      arrival {
+        delay: 0
+        time: 1751694768
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751694792
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677432"
+  trip_update {
+    trip {
+      trip_id: "1677432"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "K10-2"
+      arrival {
+        delay: 21
+        time: 1751687270
+        uncertainty: 30
+      }
+      departure {
+        delay: 21
+        time: 1751687297
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M10-1"
+      arrival {
+        delay: 0
+        time: 1751687537
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687564
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M16-1"
+      arrival {
+        delay: 0
+        time: 1751687951
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687987
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M20-1"
+      arrival {
+        delay: 0
+        time: 1751688053
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688083
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M30-1"
+      arrival {
+        delay: 0
+        time: 1751688155
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688185
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M40-1"
+      arrival {
+        delay: 0
+        time: 1751688257
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688281
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M50-1"
+      arrival {
+        delay: 0
+        time: 1751688401
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688419
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M60-1"
+      arrival {
+        delay: 0
+        time: 1751688521
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688539
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M70-1"
+      arrival {
+        delay: 0
+        time: 1751688689
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688707
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M80-1"
+      arrival {
+        delay: 0
+        time: 1751688827
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688845
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M90-3"
+      arrival {
+        delay: 0
+        time: 1751689076
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689124
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "W10-1"
+      arrival {
+        delay: 0
+        time: 1751689344
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689362
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "W20-1"
+      arrival {
+        delay: 0
+        time: 1751689524
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689542
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "W30-1"
+      arrival {
+        delay: 0
+        time: 1751689716
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689734
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677433"
+  trip_update {
+    trip {
+      trip_id: "1677433"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "C30-2"
+      arrival {
+        delay: 46
+        time: 1751687325
+        uncertainty: 30
+      }
+      departure {
+        delay: 46
+        time: 1751687343
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C20-2"
+      arrival {
+        delay: 35
+        time: 1751687609
+        uncertainty: 30
+      }
+      departure {
+        delay: 35
+        time: 1751687627
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C10-2"
+      arrival {
+        delay: 0
+        time: 1751687920
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687938
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K30-4"
+      arrival {
+        delay: 0
+        time: 1751688108
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688138
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K20-2"
+      arrival {
+        delay: 0
+        time: 1751688323
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688371
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K10-2"
+      arrival {
+        delay: 0
+        time: 1751688449
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688497
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M10-1"
+      arrival {
+        delay: 0
+        time: 1751688737
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688767
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M16-1"
+      arrival {
+        delay: 0
+        time: 1751689151
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689187
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M20-1"
+      arrival {
+        delay: 0
+        time: 1751689253
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689283
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M30-1"
+      arrival {
+        delay: 0
+        time: 1751689355
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689385
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M40-1"
+      arrival {
+        delay: 0
+        time: 1751689457
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689481
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M50-1"
+      arrival {
+        delay: 0
+        time: 1751689601
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689619
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M60-1"
+      arrival {
+        delay: 0
+        time: 1751689721
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689739
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M70-1"
+      arrival {
+        delay: 0
+        time: 1751689889
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689907
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M80-1"
+      arrival {
+        delay: 0
+        time: 1751690027
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690045
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M90-3"
+      arrival {
+        delay: 0
+        time: 1751690276
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690324
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "W10-1"
+      arrival {
+        delay: 0
+        time: 1751690544
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690562
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "W20-1"
+      arrival {
+        delay: 0
+        time: 1751690724
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690742
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "W30-1"
+      arrival {
+        delay: 0
+        time: 1751690916
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690934
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677434"
+  trip_update {
+    trip {
+      trip_id: "1677434"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "C70-2"
+      arrival {
+        delay: 46
+        time: 1751687526
+        uncertainty: 30
+      }
+      departure {
+        delay: 46
+        time: 1751687544
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C60-2"
+      arrival {
+        delay: 0
+        time: 1751687715
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687733
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C50-2"
+      arrival {
+        delay: 0
+        time: 1751688021
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688039
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C40-2"
+      arrival {
+        delay: 0
+        time: 1751688199
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688217
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C30-2"
+      arrival {
+        delay: 0
+        time: 1751688480
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688498
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C20-2"
+      arrival {
+        delay: 0
+        time: 1751688775
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688793
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C10-2"
+      arrival {
+        delay: 0
+        time: 1751689120
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689138
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K30-4"
+      arrival {
+        delay: 0
+        time: 1751689308
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689344
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K20-2"
+      arrival {
+        delay: 0
+        time: 1751689523
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689571
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K10-2"
+      arrival {
+        delay: 0
+        time: 1751689649
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689697
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M10-1"
+      arrival {
+        delay: 0
+        time: 1751689937
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689967
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M16-1"
+      arrival {
+        delay: 0
+        time: 1751690351
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690387
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M20-1"
+      arrival {
+        delay: 0
+        time: 1751690453
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690483
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M30-1"
+      arrival {
+        delay: 0
+        time: 1751690555
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690585
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M40-1"
+      arrival {
+        delay: 0
+        time: 1751690657
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690681
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M50-1"
+      arrival {
+        delay: 0
+        time: 1751690801
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690819
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M60-1"
+      arrival {
+        delay: 0
+        time: 1751690921
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690939
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M70-1"
+      arrival {
+        delay: 0
+        time: 1751691089
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691107
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M80-1"
+      arrival {
+        delay: 0
+        time: 1751691227
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691245
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M90-3"
+      arrival {
+        delay: 0
+        time: 1751691476
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691524
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "W10-1"
+      arrival {
+        delay: 0
+        time: 1751691744
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691762
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "W20-1"
+      arrival {
+        delay: 0
+        time: 1751691924
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691942
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "W30-1"
+      arrival {
+        delay: 0
+        time: 1751692116
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692134
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677550"
+  trip_update {
+    trip {
+      trip_id: "1677550"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "C80-1"
+      arrival {
+        delay: 34
+        time: 1751687601
+        uncertainty: 30
+      }
+      departure {
+        delay: 34
+        time: 1751687625
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677426"
+  trip_update {
+    trip {
+      trip_id: "1677426"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "C80-2"
+      arrival {
+        delay: 0
+        time: 1751688291
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688315
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C70-2"
+      arrival {
+        delay: 0
+        time: 1751688680
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688698
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C60-2"
+      arrival {
+        delay: 0
+        time: 1751688915
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688933
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C50-2"
+      arrival {
+        delay: 0
+        time: 1751689221
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689239
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C40-2"
+      arrival {
+        delay: 0
+        time: 1751689399
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689417
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C30-2"
+      arrival {
+        delay: 0
+        time: 1751689680
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689698
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C20-2"
+      arrival {
+        delay: 0
+        time: 1751689975
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689993
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C10-2"
+      arrival {
+        delay: 0
+        time: 1751690320
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690338
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K30-4"
+      arrival {
+        delay: 0
+        time: 1751690508
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690544
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K20-2"
+      arrival {
+        delay: 0
+        time: 1751690723
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690771
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K10-2"
+      arrival {
+        delay: 0
+        time: 1751690849
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690897
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M10-1"
+      arrival {
+        delay: 0
+        time: 1751691137
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691167
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M16-1"
+      arrival {
+        delay: 0
+        time: 1751691551
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691587
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M20-1"
+      arrival {
+        delay: 0
+        time: 1751691653
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691683
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M30-1"
+      arrival {
+        delay: 0
+        time: 1751691755
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691785
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M40-1"
+      arrival {
+        delay: 0
+        time: 1751691857
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691881
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M50-1"
+      arrival {
+        delay: 0
+        time: 1751692001
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692019
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M60-1"
+      arrival {
+        delay: 0
+        time: 1751692121
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692139
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M70-1"
+      arrival {
+        delay: 0
+        time: 1751692289
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692307
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M80-1"
+      arrival {
+        delay: 0
+        time: 1751692427
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692445
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M90-3"
+      arrival {
+        delay: 0
+        time: 1751692676
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692724
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "W10-1"
+      arrival {
+        delay: 0
+        time: 1751692944
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692962
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "W20-1"
+      arrival {
+        delay: 0
+        time: 1751693124
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751693142
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "W30-1"
+      arrival {
+        delay: 0
+        time: 1751693316
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751693334
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677551"
+  trip_update {
+    trip {
+      trip_id: "1677551"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "C20-1"
+      arrival {
+        delay: 192
+        time: 1751687294
+        uncertainty: 30
+      }
+      departure {
+        delay: 192
+        time: 1751687312
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C30-1"
+      arrival {
+        delay: 160
+        time: 1751687550
+        uncertainty: 30
+      }
+      departure {
+        delay: 160
+        time: 1751687568
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C40-1"
+      arrival {
+        delay: 163
+        time: 1751687825
+        uncertainty: 30
+      }
+      departure {
+        delay: 163
+        time: 1751687846
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C50-1"
+      arrival {
+        delay: 159
+        time: 1751687998
+        uncertainty: 30
+      }
+      departure {
+        delay: 159
+        time: 1751688016
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C60-1"
+      arrival {
+        delay: 132
+        time: 1751688286
+        uncertainty: 30
+      }
+      departure {
+        delay: 132
+        time: 1751688304
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C70-1"
+      arrival {
+        delay: 130
+        time: 1751688505
+        uncertainty: 30
+      }
+      departure {
+        delay: 130
+        time: 1751688523
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C80-1"
+      arrival {
+        delay: 99
+        time: 1751688866
+        uncertainty: 30
+      }
+      departure {
+        delay: 99
+        time: 1751688890
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677427"
+  trip_update {
+    trip {
+      trip_id: "1677427"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "C80-2"
+      arrival {
+        delay: 0
+        time: 1751689491
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689515
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C70-2"
+      arrival {
+        delay: 0
+        time: 1751689880
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689898
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C60-2"
+      arrival {
+        delay: 0
+        time: 1751690115
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690133
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C50-2"
+      arrival {
+        delay: 0
+        time: 1751690421
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690439
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C40-2"
+      arrival {
+        delay: 0
+        time: 1751690599
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690617
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C30-2"
+      arrival {
+        delay: 0
+        time: 1751690880
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690898
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C20-2"
+      arrival {
+        delay: 0
+        time: 1751691175
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691193
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C10-2"
+      arrival {
+        delay: 0
+        time: 1751691520
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691538
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K30-4"
+      arrival {
+        delay: 0
+        time: 1751691708
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691744
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K20-2"
+      arrival {
+        delay: 0
+        time: 1751691923
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691971
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K10-2"
+      arrival {
+        delay: 0
+        time: 1751692049
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692097
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M10-1"
+      arrival {
+        delay: 0
+        time: 1751692337
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692367
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M16-1"
+      arrival {
+        delay: 0
+        time: 1751692751
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692787
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M20-1"
+      arrival {
+        delay: 0
+        time: 1751692853
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692883
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M30-1"
+      arrival {
+        delay: 0
+        time: 1751692955
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692985
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M40-1"
+      arrival {
+        delay: 0
+        time: 1751693057
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751693081
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M50-1"
+      arrival {
+        delay: 0
+        time: 1751693201
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751693219
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M60-1"
+      arrival {
+        delay: 0
+        time: 1751693321
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751693339
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M70-1"
+      arrival {
+        delay: 0
+        time: 1751693489
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751693507
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M80-1"
+      arrival {
+        delay: 0
+        time: 1751693627
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751693645
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M90-3"
+      arrival {
+        delay: 0
+        time: 1751693876
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751693924
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "W10-1"
+      arrival {
+        delay: 0
+        time: 1751694144
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751694162
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "W20-1"
+      arrival {
+        delay: 0
+        time: 1751694324
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751694342
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "W30-1"
+      arrival {
+        delay: 0
+        time: 1751694516
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751694534
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677552"
+  trip_update {
+    trip {
+      trip_id: "1677552"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "K10-3"
+      arrival {
+        delay: 26
+        time: 1751687510
+        uncertainty: 30
+      }
+      departure {
+        delay: 26
+        time: 1751687532
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K20-3"
+      arrival {
+        delay: 0
+        time: 1751687568
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687618
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K30-3"
+      arrival {
+        delay: 0
+        time: 1751687813
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687833
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C10-1"
+      arrival {
+        delay: 0
+        time: 1751687981
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687999
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C20-1"
+      arrival {
+        delay: 0
+        time: 1751688302
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688320
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C30-1"
+      arrival {
+        delay: 0
+        time: 1751688590
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688608
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C40-1"
+      arrival {
+        delay: 0
+        time: 1751688863
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688887
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C50-1"
+      arrival {
+        delay: 0
+        time: 1751689040
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689058
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C60-1"
+      arrival {
+        delay: 0
+        time: 1751689354
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689372
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C70-1"
+      arrival {
+        delay: 0
+        time: 1751689576
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689594
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C80-1"
+      arrival {
+        delay: 0
+        time: 1751689968
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689992
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677553"
+  trip_update {
+    trip {
+      trip_id: "1677553"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "M70-2"
+      arrival {
+        delay: 81
+        time: 1751687322
+        uncertainty: 30
+      }
+      departure {
+        delay: 81
+        time: 1751687340
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M60-2"
+      arrival {
+        delay: 74
+        time: 1751687478
+        uncertainty: 30
+      }
+      departure {
+        delay: 74
+        time: 1751687496
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M50-2"
+      arrival {
+        delay: 69
+        time: 1751687593
+        uncertainty: 30
+      }
+      departure {
+        delay: 69
+        time: 1751687612
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M40-2"
+      arrival {
+        delay: 65
+        time: 1751687732
+        uncertainty: 30
+      }
+      departure {
+        delay: 65
+        time: 1751687754
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M30-2"
+      arrival {
+        delay: 35
+        time: 1751687798
+        uncertainty: 30
+      }
+      departure {
+        delay: 35
+        time: 1751687823
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M20-2"
+      arrival {
+        delay: 34
+        time: 1751687893
+        uncertainty: 30
+      }
+      departure {
+        delay: 34
+        time: 1751687913
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M16-2"
+      arrival {
+        delay: 33
+        time: 1751687989
+        uncertainty: 30
+      }
+      departure {
+        delay: 33
+        time: 1751688015
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M10-2"
+      arrival {
+        delay: 0
+        time: 1751688388
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688409
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K10-3"
+      arrival {
+        delay: 0
+        time: 1751688684
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688708
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K20-3"
+      arrival {
+        delay: 0
+        time: 1751688768
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688822
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K30-3"
+      arrival {
+        delay: 0
+        time: 1751689013
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689037
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C10-1"
+      arrival {
+        delay: 0
+        time: 1751689181
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689199
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C20-1"
+      arrival {
+        delay: 0
+        time: 1751689502
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689520
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C30-1"
+      arrival {
+        delay: 0
+        time: 1751689790
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689808
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C40-1"
+      arrival {
+        delay: 0
+        time: 1751690063
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690087
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C50-1"
+      arrival {
+        delay: 0
+        time: 1751690240
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690258
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C60-1"
+      arrival {
+        delay: 0
+        time: 1751690554
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690572
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C70-1"
+      arrival {
+        delay: 0
+        time: 1751690776
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690794
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "C80-1"
+      arrival {
+        delay: 0
+        time: 1751691168
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691192
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677582"
+  trip_update {
+    trip {
+      trip_id: "1677582"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "2-door"
+    }
+    stop_time_update {
+      stop_id: "W40-3"
+      arrival {
+        delay: 0
+        time: 1751687942
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687952
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677457"
+  trip_update {
+    trip {
+      trip_id: "1677457"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "2-door"
+    }
+    stop_time_update {
+      stop_id: "Y10-2"
+      arrival {
+        delay: 0
+        time: 1751688356
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688366
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677576"
+  trip_update {
+    trip {
+      trip_id: "1677576"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "2-door"
+    }
+    stop_time_update {
+      stop_id: "W40-3"
+      arrival {
+        delay: 0
+        time: 1751688842
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688852
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677453"
+  trip_update {
+    trip {
+      trip_id: "1677453"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "2-door"
+    }
+    stop_time_update {
+      stop_id: "Y10-2"
+      arrival {
+        delay: 0
+        time: 1751689256
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689266
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677581"
+  trip_update {
+    trip {
+      trip_id: "1677581"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "2-door"
+    }
+    stop_time_update {
+      stop_id: "W40-3"
+      arrival {
+        delay: 0
+        time: 1751689742
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689752
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677942"
+  trip_update {
+    trip {
+      trip_id: "1677942"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "R10-1"
+      arrival {
+        delay: 115
+        time: 1751687394
+        uncertainty: 30
+      }
+      departure {
+        delay: 115
+        time: 1751687406
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R20-1"
+      arrival {
+        delay: 96
+        time: 1751687514
+        uncertainty: 30
+      }
+      departure {
+        delay: 96
+        time: 1751687535
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R30-1"
+      arrival {
+        delay: 99
+        time: 1751687660
+        uncertainty: 30
+      }
+      departure {
+        delay: 99
+        time: 1751687678
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R40-1"
+      arrival {
+        delay: 109
+        time: 1751687862
+        uncertainty: 30
+      }
+      departure {
+        delay: 109
+        time: 1751687880
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R50-1"
+      arrival {
+        delay: 102
+        time: 1751688036
+        uncertainty: 30
+      }
+      departure {
+        delay: 102
+        time: 1751688054
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677943"
+  trip_update {
+    trip {
+      trip_id: "1677943"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "M16-2"
+      arrival {
+        delay: 34
+        time: 1751687300
+        uncertainty: 30
+      }
+      departure {
+        delay: 34
+        time: 1751687327
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M10-2"
+      arrival {
+        delay: 0
+        time: 1751687699
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687720
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K10-1"
+      arrival {
+        delay: 0
+        time: 1751687935
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687956
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K20-1"
+      arrival {
+        delay: 0
+        time: 1751688019
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688066
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K30-1"
+      arrival {
+        delay: 0
+        time: 1751688264
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688306
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R10-1"
+      arrival {
+        delay: 0
+        time: 1751688480
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688498
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R20-1"
+      arrival {
+        delay: 0
+        time: 1751688618
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688642
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R30-1"
+      arrival {
+        delay: 0
+        time: 1751688762
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688780
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R40-1"
+      arrival {
+        delay: 0
+        time: 1751688954
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688972
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R50-1"
+      arrival {
+        delay: 0
+        time: 1751689135
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689153
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677944"
+  trip_update {
+    trip {
+      trip_id: "1677944"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "M90-2"
+      arrival {
+        delay: 51
+        time: 1751687420
+        uncertainty: 30
+      }
+      departure {
+        delay: 51
+        time: 1751687447
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M80-2"
+      arrival {
+        delay: 0
+        time: 1751687615
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687633
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M70-2"
+      arrival {
+        delay: 0
+        time: 1751687753
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687770
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M60-2"
+      arrival {
+        delay: 0
+        time: 1751687915
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687933
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M50-2"
+      arrival {
+        delay: 0
+        time: 1751688035
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688058
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M40-2"
+      arrival {
+        delay: 0
+        time: 1751688179
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688203
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M30-2"
+      arrival {
+        delay: 0
+        time: 1751688275
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688305
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M20-2"
+      arrival {
+        delay: 0
+        time: 1751688371
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688401
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M16-2"
+      arrival {
+        delay: 0
+        time: 1751688467
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688503
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M10-2"
+      arrival {
+        delay: 0
+        time: 1751688899
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688929
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K10-1"
+      arrival {
+        delay: 0
+        time: 1751689135
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689159
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K20-1"
+      arrival {
+        delay: 0
+        time: 1751689219
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689273
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K30-1"
+      arrival {
+        delay: 0
+        time: 1751689464
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689506
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R10-1"
+      arrival {
+        delay: 0
+        time: 1751689680
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689698
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R20-1"
+      arrival {
+        delay: 0
+        time: 1751689818
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689842
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R30-1"
+      arrival {
+        delay: 0
+        time: 1751689962
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689980
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R40-1"
+      arrival {
+        delay: 0
+        time: 1751690154
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690172
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R50-1"
+      arrival {
+        delay: 0
+        time: 1751690335
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690353
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1677990"
+  trip_update {
+    trip {
+      trip_id: "1677990"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "W40-3"
+      arrival {
+        delay: 0
+        time: 1751687301
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687322
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "Y10-2"
+      arrival {
+        delay: 0
+        time: 1751687760
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687778
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "W30-2"
+      arrival {
+        delay: 0
+        time: 1751687978
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687996
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "W20-2"
+      arrival {
+        delay: 0
+        time: 1751688170
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688188
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "W10-2"
+      arrival {
+        delay: 0
+        time: 1751688356
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688392
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M90-2"
+      arrival {
+        delay: 0
+        time: 1751688569
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688611
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M80-2"
+      arrival {
+        delay: 0
+        time: 1751688815
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688833
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M70-2"
+      arrival {
+        delay: 0
+        time: 1751688953
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688971
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M60-2"
+      arrival {
+        delay: 0
+        time: 1751689115
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689133
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M50-2"
+      arrival {
+        delay: 0
+        time: 1751689235
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689259
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M40-2"
+      arrival {
+        delay: 0
+        time: 1751689379
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689403
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M30-2"
+      arrival {
+        delay: 0
+        time: 1751689475
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689505
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M20-2"
+      arrival {
+        delay: 0
+        time: 1751689571
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689601
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M16-2"
+      arrival {
+        delay: 0
+        time: 1751689667
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689703
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M10-2"
+      arrival {
+        delay: 0
+        time: 1751690099
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690129
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K10-1"
+      arrival {
+        delay: 0
+        time: 1751690335
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690359
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K20-1"
+      arrival {
+        delay: 0
+        time: 1751690419
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690473
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "K30-1"
+      arrival {
+        delay: 0
+        time: 1751690664
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690706
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R10-1"
+      arrival {
+        delay: 0
+        time: 1751690880
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690898
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R20-1"
+      arrival {
+        delay: 0
+        time: 1751691018
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691042
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R30-1"
+      arrival {
+        delay: 0
+        time: 1751691162
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691180
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R40-1"
+      arrival {
+        delay: 0
+        time: 1751691354
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691372
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "R50-1"
+      arrival {
+        delay: 0
+        time: 1751691535
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691553
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1678091"
+  trip_update {
+    trip {
+      trip_id: "1678091"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "L20-1"
+      arrival {
+        delay: 38
+        time: 1751687592
+        uncertainty: 30
+      }
+      departure {
+        delay: 38
+        time: 1751687610
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1678040"
+  trip_update {
+    trip {
+      trip_id: "1678040"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "L30-2"
+      arrival {
+        delay: 0
+        time: 1751688088
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688093
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "L20-2"
+      arrival {
+        delay: 0
+        time: 1751688276
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688294
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "L10-2"
+      arrival {
+        delay: 0
+        time: 1751688883
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688901
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A50-2"
+      arrival {
+        delay: 0
+        time: 1751689170
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689188
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A40-2"
+      arrival {
+        delay: 0
+        time: 1751689399
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689417
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A30-2"
+      arrival {
+        delay: 0
+        time: 1751689652
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689670
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A20-2"
+      arrival {
+        delay: 0
+        time: 1751689851
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689869
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A10-2"
+      arrival {
+        delay: 0
+        time: 1751690120
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690138
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M10-1"
+      arrival {
+        delay: 0
+        time: 1751690438
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690468
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M16-1"
+      arrival {
+        delay: 0
+        time: 1751690852
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690888
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M20-1"
+      arrival {
+        delay: 0
+        time: 1751690954
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690984
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M30-1"
+      arrival {
+        delay: 0
+        time: 1751691056
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691086
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M40-1"
+      arrival {
+        delay: 0
+        time: 1751691158
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691182
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M50-1"
+      arrival {
+        delay: 0
+        time: 1751691302
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691320
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M60-1"
+      arrival {
+        delay: 0
+        time: 1751691422
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691440
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M70-1"
+      arrival {
+        delay: 0
+        time: 1751691590
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691608
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M80-1"
+      arrival {
+        delay: 0
+        time: 1751691728
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691746
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1678092"
+  trip_update {
+    trip {
+      trip_id: "1678092"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "A20-1"
+      arrival {
+        delay: 96
+        time: 1751687326
+        uncertainty: 30
+      }
+      departure {
+        delay: 96
+        time: 1751687344
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A30-1"
+      arrival {
+        delay: 75
+        time: 1751687498
+        uncertainty: 30
+      }
+      departure {
+        delay: 75
+        time: 1751687516
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A40-1"
+      arrival {
+        delay: 59
+        time: 1751687727
+        uncertainty: 30
+      }
+      departure {
+        delay: 59
+        time: 1751687744
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A50-1"
+      arrival {
+        delay: 45
+        time: 1751687938
+        uncertainty: 30
+      }
+      departure {
+        delay: 45
+        time: 1751687967
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "L10-1"
+      arrival {
+        delay: 32
+        time: 1751688208
+        uncertainty: 30
+      }
+      departure {
+        delay: 32
+        time: 1751688226
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "L20-1"
+      arrival {
+        delay: 33
+        time: 1751688787
+        uncertainty: 30
+      }
+      departure {
+        delay: 33
+        time: 1751688805
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1678041"
+  trip_update {
+    trip {
+      trip_id: "1678041"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "L30-2"
+      arrival {
+        delay: 0
+        time: 1751688975
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689293
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "L20-2"
+      arrival {
+        delay: 0
+        time: 1751689476
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689494
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "L10-2"
+      arrival {
+        delay: 0
+        time: 1751690083
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690101
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A50-2"
+      arrival {
+        delay: 0
+        time: 1751690370
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690388
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A40-2"
+      arrival {
+        delay: 0
+        time: 1751690599
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690617
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A30-2"
+      arrival {
+        delay: 0
+        time: 1751690852
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690870
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A20-2"
+      arrival {
+        delay: 0
+        time: 1751691051
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691069
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A10-2"
+      arrival {
+        delay: 0
+        time: 1751691320
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691338
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M10-1"
+      arrival {
+        delay: 0
+        time: 1751691638
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691668
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M16-1"
+      arrival {
+        delay: 0
+        time: 1751692052
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692088
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M20-1"
+      arrival {
+        delay: 0
+        time: 1751692154
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692184
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M30-1"
+      arrival {
+        delay: 0
+        time: 1751692256
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692286
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M40-1"
+      arrival {
+        delay: 0
+        time: 1751692358
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692382
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M50-1"
+      arrival {
+        delay: 0
+        time: 1751692502
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692520
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M60-1"
+      arrival {
+        delay: 0
+        time: 1751692622
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692640
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M70-1"
+      arrival {
+        delay: 0
+        time: 1751692790
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692808
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M80-1"
+      arrival {
+        delay: 0
+        time: 1751692928
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692946
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1678093"
+  trip_update {
+    trip {
+      trip_id: "1678093"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "M30-2"
+      arrival {
+        delay: 72
+        time: 1751687280
+        uncertainty: 30
+      }
+      departure {
+        delay: 72
+        time: 1751687305
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M20-2"
+      arrival {
+        delay: 69
+        time: 1751687372
+        uncertainty: 30
+      }
+      departure {
+        delay: 69
+        time: 1751687392
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M16-2"
+      arrival {
+        delay: 43
+        time: 1751687443
+        uncertainty: 30
+      }
+      departure {
+        delay: 43
+        time: 1751687470
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M10-2"
+      arrival {
+        delay: 30
+        time: 1751687862
+        uncertainty: 30
+      }
+      departure {
+        delay: 30
+        time: 1751687884
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A10-1"
+      arrival {
+        delay: 0
+        time: 1751688178
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688214
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A20-1"
+      arrival {
+        delay: 0
+        time: 1751688431
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688449
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A30-1"
+      arrival {
+        delay: 0
+        time: 1751688623
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688641
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A40-1"
+      arrival {
+        delay: 0
+        time: 1751688868
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688886
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A50-1"
+      arrival {
+        delay: 0
+        time: 1751689094
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689130
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "L10-1"
+      arrival {
+        delay: 0
+        time: 1751689376
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689394
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "L20-1"
+      arrival {
+        delay: 0
+        time: 1751689954
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689972
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1678097"
+  trip_update {
+    trip {
+      trip_id: "1678097"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "M80-2"
+      arrival {
+        delay: 0
+        time: 1751687748
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687766
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M70-2"
+      arrival {
+        delay: 0
+        time: 1751687886
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687904
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M60-2"
+      arrival {
+        delay: 0
+        time: 1751688048
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688066
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M50-2"
+      arrival {
+        delay: 0
+        time: 1751688168
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688192
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M40-2"
+      arrival {
+        delay: 0
+        time: 1751688312
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688336
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M30-2"
+      arrival {
+        delay: 0
+        time: 1751688408
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688438
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M20-2"
+      arrival {
+        delay: 0
+        time: 1751688504
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688534
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M16-2"
+      arrival {
+        delay: 0
+        time: 1751688600
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688636
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M10-2"
+      arrival {
+        delay: 0
+        time: 1751689032
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689062
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A10-1"
+      arrival {
+        delay: 0
+        time: 1751689378
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689414
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A20-1"
+      arrival {
+        delay: 0
+        time: 1751689631
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689649
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A30-1"
+      arrival {
+        delay: 0
+        time: 1751689823
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689841
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A40-1"
+      arrival {
+        delay: 0
+        time: 1751690068
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690086
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A50-1"
+      arrival {
+        delay: 0
+        time: 1751690294
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690330
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "L10-1"
+      arrival {
+        delay: 0
+        time: 1751690576
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690594
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "L20-1"
+      arrival {
+        delay: 0
+        time: 1751691154
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691172
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1678037"
+  trip_update {
+    trip {
+      trip_id: "1678037"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "M70-1"
+      arrival {
+        delay: 33
+        time: 1751687337
+        uncertainty: 30
+      }
+      departure {
+        delay: 33
+        time: 1751687355
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M80-1"
+      arrival {
+        delay: 0
+        time: 1751687442
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687460
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1678107"
+  trip_update {
+    trip {
+      trip_id: "1678107"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "M90-1"
+      arrival {
+        delay: 0
+        time: 1751687691
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688744
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M80-2"
+      arrival {
+        delay: 0
+        time: 1751688948
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688966
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M70-2"
+      arrival {
+        delay: 0
+        time: 1751689086
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689104
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M60-2"
+      arrival {
+        delay: 0
+        time: 1751689248
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689266
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M50-2"
+      arrival {
+        delay: 0
+        time: 1751689368
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689392
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M40-2"
+      arrival {
+        delay: 0
+        time: 1751689512
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689536
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M30-2"
+      arrival {
+        delay: 0
+        time: 1751689608
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689638
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M20-2"
+      arrival {
+        delay: 0
+        time: 1751689704
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689734
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M16-2"
+      arrival {
+        delay: 0
+        time: 1751689800
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689836
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M10-2"
+      arrival {
+        delay: 0
+        time: 1751690232
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690262
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A10-1"
+      arrival {
+        delay: 0
+        time: 1751690578
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690614
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A20-1"
+      arrival {
+        delay: 0
+        time: 1751690831
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690849
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A30-1"
+      arrival {
+        delay: 0
+        time: 1751691023
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691041
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A40-1"
+      arrival {
+        delay: 0
+        time: 1751691268
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691286
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A50-1"
+      arrival {
+        delay: 0
+        time: 1751691494
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691530
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "L10-1"
+      arrival {
+        delay: 0
+        time: 1751691776
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691794
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "L20-1"
+      arrival {
+        delay: 0
+        time: 1751692354
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692372
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1678038"
+  trip_update {
+    trip {
+      trip_id: "1678038"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "M10-1"
+      arrival {
+        delay: 30
+        time: 1751687381
+        uncertainty: 30
+      }
+      departure {
+        delay: 30
+        time: 1751687401
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M16-1"
+      arrival {
+        delay: 0
+        time: 1751687766
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687795
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M20-1"
+      arrival {
+        delay: 0
+        time: 1751687868
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687898
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M30-1"
+      arrival {
+        delay: 0
+        time: 1751687970
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688000
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M40-1"
+      arrival {
+        delay: 0
+        time: 1751688072
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688096
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M50-1"
+      arrival {
+        delay: 0
+        time: 1751688216
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688234
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M60-1"
+      arrival {
+        delay: 0
+        time: 1751688336
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688354
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M70-1"
+      arrival {
+        delay: 0
+        time: 1751688504
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688522
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M80-1"
+      arrival {
+        delay: 0
+        time: 1751688642
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688660
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1678039"
+  trip_update {
+    trip {
+      trip_id: "1678039"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "A50-2"
+      arrival {
+        delay: 35
+        time: 1751687318
+        uncertainty: 30
+      }
+      departure {
+        delay: 35
+        time: 1751687336
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A40-2"
+      arrival {
+        delay: 0
+        time: 1751687513
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687531
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A30-2"
+      arrival {
+        delay: 0
+        time: 1751687766
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687783
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A20-2"
+      arrival {
+        delay: 0
+        time: 1751687965
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687983
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A10-2"
+      arrival {
+        delay: 0
+        time: 1751688234
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688252
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M10-1"
+      arrival {
+        delay: 0
+        time: 1751688552
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688582
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M16-1"
+      arrival {
+        delay: 0
+        time: 1751688966
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689002
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M20-1"
+      arrival {
+        delay: 0
+        time: 1751689068
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689098
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M30-1"
+      arrival {
+        delay: 0
+        time: 1751689170
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689200
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M40-1"
+      arrival {
+        delay: 0
+        time: 1751689272
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689296
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M50-1"
+      arrival {
+        delay: 0
+        time: 1751689416
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689434
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M60-1"
+      arrival {
+        delay: 0
+        time: 1751689536
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689554
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M70-1"
+      arrival {
+        delay: 0
+        time: 1751689704
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689722
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M80-1"
+      arrival {
+        delay: 0
+        time: 1751689842
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689860
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "1678036"
+  trip_update {
+    trip {
+      trip_id: "1678036"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "3-door"
+    }
+    stop_time_update {
+      stop_id: "L30-2"
+      arrival {
+        delay: 0
+        time: 1751687402
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687407
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "L20-2"
+      arrival {
+        delay: 0
+        time: 1751687590
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687608
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "L10-2"
+      arrival {
+        delay: 0
+        time: 1751688197
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688215
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A50-2"
+      arrival {
+        delay: 0
+        time: 1751688484
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688502
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A40-2"
+      arrival {
+        delay: 0
+        time: 1751688713
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688731
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A30-2"
+      arrival {
+        delay: 0
+        time: 1751688966
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688984
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A20-2"
+      arrival {
+        delay: 0
+        time: 1751689165
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689183
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "A10-2"
+      arrival {
+        delay: 0
+        time: 1751689434
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689452
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M10-1"
+      arrival {
+        delay: 0
+        time: 1751689752
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689782
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M16-1"
+      arrival {
+        delay: 0
+        time: 1751690166
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690202
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M20-1"
+      arrival {
+        delay: 0
+        time: 1751690268
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690298
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M30-1"
+      arrival {
+        delay: 0
+        time: 1751690370
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690400
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M40-1"
+      arrival {
+        delay: 0
+        time: 1751690472
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690496
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M50-1"
+      arrival {
+        delay: 0
+        time: 1751690616
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690634
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M60-1"
+      arrival {
+        delay: 0
+        time: 1751690736
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690754
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M70-1"
+      arrival {
+        delay: 0
+        time: 1751690904
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690922
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "M80-1"
+      arrival {
+        delay: 0
+        time: 1751691042
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691060
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "680"
+  trip_update {
+    trip {
+      trip_id: "680"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "2-door"
+    }
+    stop_time_update {
+      stop_id: "E20-1"
+      arrival {
+        delay: 0
+        time: 1751688431
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688461
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "682"
+  trip_update {
+    trip {
+      trip_id: "682"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "2-door"
+    }
+    stop_time_update {
+      stop_id: "E20-1"
+      arrival {
+        delay: 0
+        time: 1751689631
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689661
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "683"
+  trip_update {
+    trip {
+      trip_id: "683"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "2-door"
+    }
+    stop_time_update {
+      stop_id: "E20-2"
+      arrival {
+        delay: 0
+        time: 1751687434
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751687464
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "684"
+  trip_update {
+    trip {
+      trip_id: "684"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "2-door"
+    }
+    stop_time_update {
+      stop_id: "E20-1"
+      arrival {
+        delay: 0
+        time: 1751690831
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690861
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "685"
+  trip_update {
+    trip {
+      trip_id: "685"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "2-door"
+    }
+    stop_time_update {
+      stop_id: "E30-2"
+      arrival {
+        delay: 0
+        time: 1751687629
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688228
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "E20-2"
+      arrival {
+        delay: 0
+        time: 1751688672
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751688702
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "686"
+  trip_update {
+    trip {
+      trip_id: "686"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "2-door"
+    }
+    stop_time_update {
+      stop_id: "E20-1"
+      arrival {
+        delay: 0
+        time: 1751692031
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692061
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "687"
+  trip_update {
+    trip {
+      trip_id: "687"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "2-door"
+    }
+    stop_time_update {
+      stop_id: "E30-2"
+      arrival {
+        delay: 0
+        time: 1751689128
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689428
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "E20-2"
+      arrival {
+        delay: 0
+        time: 1751689872
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751689902
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "689"
+  trip_update {
+    trip {
+      trip_id: "689"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "2-door"
+    }
+    stop_time_update {
+      stop_id: "E30-2"
+      arrival {
+        delay: 0
+        time: 1751690328
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751690628
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "E20-2"
+      arrival {
+        delay: 0
+        time: 1751691072
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691102
+        uncertainty: 30
+      }
+    }
+  }
+}
+entity {
+  id: "691"
+  trip_update {
+    trip {
+      trip_id: "691"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      label: "2-door"
+    }
+    stop_time_update {
+      stop_id: "E30-2"
+      arrival {
+        delay: 0
+        time: 1751691528
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751691828
+        uncertainty: 30
+      }
+    }
+    stop_time_update {
+      stop_id: "E20-2"
+      arrival {
+        delay: 0
+        time: 1751692272
+        uncertainty: 30
+      }
+      departure {
+        delay: 0
+        time: 1751692302
+        uncertainty: 30
+      }
+    }
+  }
+}

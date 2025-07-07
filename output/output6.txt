@@ -1,0 +1,284 @@
+============================================================
+BART Next Train Arrivals - 2025-07-04 20:47:42
+============================================================
+----------------------------------------
+Train ID: 1677807
+Next Stop: Milpitas (stop S40-1)
+Arrives in: 6 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677692
+Next Stop: Richmond (stop R60-2)
+Arrives in: 13 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677631
+Next Stop: North Berkeley (stop R30-1)
+Arrives in: 0 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677693
+Next Stop: Richmond (stop R60-2)
+Arrives in: 33 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677632
+Next Stop: Lake Merritt (stop A10-2)
+Arrives in: 2 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677633
+Next Stop: Hayward (stop A60-2)
+Arrives in: 2 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677634
+Next Stop: Warm Springs / South Fremont (stop S20-2)
+Arrives in: 1 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677635
+Next Stop: Milpitas (stop S40-2)
+Arrives in: 13 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677688
+Next Stop: Warm Springs / South Fremont (stop S20-1)
+Arrives in: 5 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677636
+Next Stop: Berryessa / North San Jose (stop S50-2)
+Arrives in: 17 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677689
+Next Stop: Bay Fair (stop A50-1)
+Arrives in: 1 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677690
+Next Stop: 19th Street Oakland (stop K20-2)
+Arrives in: 0 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677691
+Next Stop: El Cerrito Plaza (stop R40-2)
+Arrives in: 2 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677554
+Next Stop: San Bruno (stop W30-2)
+Arrives in: 3 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677430
+Next Stop: San Bruno (stop W30-1)
+Arrives in: 1 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677555
+Next Stop: San Francisco International Airport (stop Y10-1)
+Arrives in: 5 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677431
+Next Stop: 24th Street / Mission (stop M60-1)
+Arrives in: 0 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677556
+Next Stop: San Francisco International Airport (stop Y10-1)
+Arrives in: 25 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677432
+Next Stop: 12th Street / Oakland City Center (stop K10-2)
+Arrives in: 0 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677433
+Next Stop: Lafayette (stop C30-2)
+Arrives in: 1 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677434
+Next Stop: North Concord / Martinez (stop C70-2)
+Arrives in: 4 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677550
+Next Stop: Pittsburg / Bay Point (stop C80-1)
+Arrives in: 5 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677426
+Next Stop: Pittsburg / Bay Point (stop C80-2)
+Arrives in: 17 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677551
+Next Stop: Orinda (stop C20-1)
+Arrives in: 0 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677427
+Next Stop: Pittsburg / Bay Point (stop C80-2)
+Arrives in: 37 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677552
+Next Stop: 12th Street / Oakland City Center (stop K10-3)
+Arrives in: 3 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677553
+Next Stop: Glen Park (stop M70-2)
+Arrives in: 0 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677582
+Next Stop: Millbrae (Caltrain Transfer Platform) (stop W40-3)
+Arrives in: 11 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677457
+Next Stop: San Francisco International Airport (stop Y10-2)
+Arrives in: 18 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677576
+Next Stop: Millbrae (Caltrain Transfer Platform) (stop W40-3)
+Arrives in: 26 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677453
+Next Stop: San Francisco International Airport (stop Y10-2)
+Arrives in: 33 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677581
+Next Stop: Millbrae (Caltrain Transfer Platform) (stop W40-3)
+Arrives in: 41 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677942
+Next Stop: Ashby (stop R10-1)
+Arrives in: 2 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677943
+Next Stop: Embarcadero (stop M16-2)
+Arrives in: 0 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677944
+Next Stop: Daly City (stop M90-2)
+Arrives in: 2 min
+----------------------------------------
+----------------------------------------
+Train ID: 1677990
+Next Stop: Millbrae (Caltrain Transfer Platform) (stop W40-3)
+Arrives in: 0 min
+----------------------------------------
+----------------------------------------
+Train ID: 1678091
+Next Stop: West Dublin / Pleasanton (stop L20-1)
+Arrives in: 5 min
+----------------------------------------
+----------------------------------------
+Train ID: 1678040
+Next Stop: Dublin / Pleasanton (stop L30-2)
+Arrives in: 13 min
+----------------------------------------
+----------------------------------------
+Train ID: 1678092
+Next Stop: Fruitvale (stop A20-1)
+Arrives in: 1 min
+----------------------------------------
+----------------------------------------
+Train ID: 1678041
+Next Stop: Dublin / Pleasanton (stop L30-2)
+Arrives in: 28 min
+----------------------------------------
+----------------------------------------
+Train ID: 1678093
+Next Stop: Powell Street (stop M30-2)
+Arrives in: 0 min
+----------------------------------------
+----------------------------------------
+Train ID: 1678097
+Next Stop: Balboa Park (stop M80-2)
+Arrives in: 8 min
+----------------------------------------
+----------------------------------------
+Train ID: 1678037
+Next Stop: Glen Park (stop M70-1)
+Arrives in: 1 min
+----------------------------------------
+----------------------------------------
+Train ID: 1678107
+Next Stop: Daly City (stop M90-1)
+Arrives in: 7 min
+----------------------------------------
+----------------------------------------
+Train ID: 1678038
+Next Stop: West Oakland (stop M10-1)
+Arrives in: 1 min
+----------------------------------------
+----------------------------------------
+Train ID: 1678039
+Next Stop: Bay Fair (stop A50-2)
+Arrives in: 0 min
+----------------------------------------
+----------------------------------------
+Train ID: 1678036
+Next Stop: Dublin / Pleasanton (stop L30-2)
+Arrives in: 2 min
+----------------------------------------
+----------------------------------------
+Train ID: 680
+Next Stop: Pittsburg Center (stop E20-1)
+Arrives in: 19 min
+----------------------------------------
+----------------------------------------
+Train ID: 682
+Next Stop: Pittsburg Center (stop E20-1)
+Arrives in: 39 min
+----------------------------------------
+----------------------------------------
+Train ID: 683
+Next Stop: Pittsburg Center (stop E20-2)
+Arrives in: 2 min
+----------------------------------------
+----------------------------------------
+Train ID: 684
+Next Stop: Pittsburg Center (stop E20-1)
+Arrives in: 59 min
+----------------------------------------
+----------------------------------------
+Train ID: 685
+Next Stop: Antioch (stop E30-2)
+Arrives in: 6 min
+----------------------------------------
+----------------------------------------
+Train ID: 686
+Next Stop: Pittsburg Center (stop E20-1)
+Arrives in: 79 min
+----------------------------------------
+----------------------------------------
+Train ID: 687
+Next Stop: Antioch (stop E30-2)
+Arrives in: 31 min
+----------------------------------------
+----------------------------------------
+Train ID: 689
+Next Stop: Antioch (stop E30-2)
+Arrives in: 51 min
+----------------------------------------
+----------------------------------------
+Train ID: 691
+Next Stop: Antioch (stop E30-2)
+Arrives in: 71 min
+----------------------------------------
+============================================================

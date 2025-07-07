@@ -1,0 +1,287 @@
+A10-1: {'name': 'Lake Merritt', 'code': '902101', 'zone_id': 'LAKE', 'parent_station': 'LAKE', 'platform_code': '1'}
+A10-2: {'name': 'Lake Merritt', 'code': '902102', 'zone_id': 'LAKE', 'parent_station': 'LAKE', 'platform_code': '2'}
+A20-1: {'name': 'Fruitvale', 'code': '902201', 'zone_id': 'FTVL', 'parent_station': 'FTVL', 'platform_code': '1'}
+A20-2: {'name': 'Fruitvale', 'code': '902202', 'zone_id': 'FTVL', 'parent_station': 'FTVL', 'platform_code': '2'}
+A30-1: {'name': 'Coliseum', 'code': '902301', 'zone_id': 'COLS', 'parent_station': 'COLS', 'platform_code': '1'}
+A30-2: {'name': 'Coliseum', 'code': '902302', 'zone_id': 'COLS', 'parent_station': 'COLS', 'platform_code': '2'}
+H10: {'name': 'Coliseum - OAC', 'code': '902303', 'zone_id': 'COLS', 'parent_station': 'COLS', 'platform_code': '3'}
+A40-1: {'name': 'San Leandro', 'code': '902401', 'zone_id': 'SANL', 'parent_station': 'SANL', 'platform_code': '1'}
+A40-2: {'name': 'San Leandro', 'code': '902402', 'zone_id': 'SANL', 'parent_station': 'SANL', 'platform_code': '2'}
+A50-1: {'name': 'Bay Fair', 'code': '902501', 'zone_id': 'BAYF', 'parent_station': 'BAYF', 'platform_code': '1'}
+A50-2: {'name': 'Bay Fair', 'code': '902502', 'zone_id': 'BAYF', 'parent_station': 'BAYF', 'platform_code': '2'}
+A60-1: {'name': 'Hayward', 'code': '902601', 'zone_id': 'HAYW', 'parent_station': 'HAYW', 'platform_code': '1'}
+A60-2: {'name': 'Hayward', 'code': '902602', 'zone_id': 'HAYW', 'parent_station': 'HAYW', 'platform_code': '2'}
+A70-1: {'name': 'South Hayward', 'code': '902701', 'zone_id': 'SHAY', 'parent_station': 'SHAY', 'platform_code': '1'}
+A70-2: {'name': 'South Hayward', 'code': '902702', 'zone_id': 'SHAY', 'parent_station': 'SHAY', 'platform_code': '2'}
+A80-1: {'name': 'Union City', 'code': '902801', 'zone_id': 'UCTY', 'parent_station': 'UCTY', 'platform_code': '1'}
+A80-2: {'name': 'Union City', 'code': '902802', 'zone_id': 'UCTY', 'parent_station': 'UCTY', 'platform_code': '2'}
+A90-1: {'name': 'Fremont', 'code': '902901', 'zone_id': 'FRMT', 'parent_station': 'FRMT', 'platform_code': '1'}
+A90-2: {'name': 'Fremont', 'code': '902902', 'zone_id': 'FRMT', 'parent_station': 'FRMT', 'platform_code': '2'}
+C10-1: {'name': 'Rockridge', 'code': '903101', 'zone_id': 'ROCK', 'parent_station': 'ROCK', 'platform_code': '1'}
+C10-2: {'name': 'Rockridge', 'code': '903102', 'zone_id': 'ROCK', 'parent_station': 'ROCK', 'platform_code': '2'}
+C20-1: {'name': 'Orinda', 'code': '903201', 'zone_id': 'ORIN', 'parent_station': 'ORIN', 'platform_code': '1'}
+C20-2: {'name': 'Orinda', 'code': '903202', 'zone_id': 'ORIN', 'parent_station': 'ORIN', 'platform_code': '2'}
+C30-1: {'name': 'Lafayette', 'code': '903301', 'zone_id': 'LAFY', 'parent_station': 'LAFY', 'platform_code': '1'}
+C30-2: {'name': 'Lafayette', 'code': '903302', 'zone_id': 'LAFY', 'parent_station': 'LAFY', 'platform_code': '2'}
+C40-1: {'name': 'Walnut Creek', 'code': '903401', 'zone_id': 'WCRK', 'parent_station': 'WCRK', 'platform_code': '1'}
+C40-2: {'name': 'Walnut Creek', 'code': '903402', 'zone_id': 'WCRK', 'parent_station': 'WCRK', 'platform_code': '2'}
+C50-1: {'name': 'Pleasant Hill / Contra Costa Centre', 'code': '903501', 'zone_id': 'PHIL', 'parent_station': 'PHIL', 'platform_code': '1'}
+C50-2: {'name': 'Pleasant Hill / Contra Costa Centre', 'code': '903502', 'zone_id': 'PHIL', 'parent_station': 'PHIL', 'platform_code': '2'}
+C60-1: {'name': 'Concord', 'code': '903601', 'zone_id': 'CONC', 'parent_station': 'CONC', 'platform_code': '1'}
+C60-2: {'name': 'Concord', 'code': '903602', 'zone_id': 'CONC', 'parent_station': 'CONC', 'platform_code': '2'}
+C70-1: {'name': 'North Concord / Martinez', 'code': '903701', 'zone_id': 'NCON', 'parent_station': 'NCON', 'platform_code': '1'}
+C70-2: {'name': 'North Concord / Martinez', 'code': '903702', 'zone_id': 'NCON', 'parent_station': 'NCON', 'platform_code': '2'}
+C80-1: {'name': 'Pittsburg / Bay Point', 'code': '903801', 'zone_id': 'PITT', 'parent_station': 'PITT', 'platform_code': '1'}
+C80-2: {'name': 'Pittsburg / Bay Point', 'code': '903802', 'zone_id': 'PITT', 'parent_station': 'PITT', 'platform_code': '2'}
+E20-1: {'name': 'Pittsburg Center', 'code': '908201', 'zone_id': 'PCTR', 'parent_station': 'PCTR', 'platform_code': '1'}
+E20-2: {'name': 'Pittsburg Center', 'code': '908202', 'zone_id': 'PCTR', 'parent_station': 'PCTR', 'platform_code': '2'}
+E30-1: {'name': 'Antioch', 'code': '908301', 'zone_id': 'ANTC', 'parent_station': 'ANTC', 'platform_code': '1'}
+E30-2: {'name': 'Antioch', 'code': '908302', 'zone_id': 'ANTC', 'parent_station': 'ANTC', 'platform_code': '2'}
+H40: {'name': 'Oakland International Airport Station', 'code': '907401', 'zone_id': 'OAKL', 'parent_station': 'OAKL', 'platform_code': '1'}
+K10-1: {'name': '12th Street / Oakland City Center', 'code': '900101', 'zone_id': '12TH', 'parent_station': '12TH', 'platform_code': '1'}
+K10-2: {'name': '12th Street / Oakland City Center', 'code': '900102', 'zone_id': '12TH', 'parent_station': '12TH', 'platform_code': '2'}
+K10-3: {'name': '12th Street / Oakland City Center', 'code': '900103', 'zone_id': '12TH', 'parent_station': '12TH', 'platform_code': '3'}
+K20-1: {'name': '19th Street Oakland', 'code': '900201', 'zone_id': '19TH', 'parent_station': '19TH', 'platform_code': '1'}
+K20-2: {'name': '19th Street Oakland', 'code': '900202', 'zone_id': '19TH', 'parent_station': '19TH', 'platform_code': '2'}
+K20-3: {'name': '19th Street Oakland', 'code': '900203', 'zone_id': '19TH', 'parent_station': '19TH', 'platform_code': '3'}
+K30-1: {'name': 'MacArthur', 'code': '900301', 'zone_id': 'MCAR', 'parent_station': 'MCAR', 'platform_code': '1'}
+K30-2: {'name': 'MacArthur', 'code': '900302', 'zone_id': 'MCAR', 'parent_station': 'MCAR', 'platform_code': '2'}
+K30-3: {'name': 'MacArthur', 'code': '900303', 'zone_id': 'MCAR', 'parent_station': 'MCAR', 'platform_code': '3'}
+K30-4: {'name': 'MacArthur', 'code': '900304', 'zone_id': 'MCAR', 'parent_station': 'MCAR', 'platform_code': '4'}
+L10-1: {'name': 'Castro Valley', 'code': '905101', 'zone_id': 'CAST', 'parent_station': 'CAST', 'platform_code': '1'}
+L10-2: {'name': 'Castro Valley', 'code': '905102', 'zone_id': 'CAST', 'parent_station': 'CAST', 'platform_code': '2'}
+L20-1: {'name': 'West Dublin / Pleasanton', 'code': '905201', 'zone_id': 'WDUB', 'parent_station': 'WDUB', 'platform_code': '1'}
+L20-2: {'name': 'West Dublin / Pleasanton', 'code': '905202', 'zone_id': 'WDUB', 'parent_station': 'WDUB', 'platform_code': '2'}
+L30-1: {'name': 'Dublin / Pleasanton', 'code': '905301', 'zone_id': 'DUBL', 'parent_station': 'DUBL', 'platform_code': '1'}
+L30-2: {'name': 'Dublin / Pleasanton', 'code': '905302', 'zone_id': 'DUBL', 'parent_station': 'DUBL', 'platform_code': '2'}
+M10-1: {'name': 'West Oakland', 'code': '901101', 'zone_id': 'WOAK', 'parent_station': 'WOAK', 'platform_code': '1'}
+M10-2: {'name': 'West Oakland', 'code': '901102', 'zone_id': 'WOAK', 'parent_station': 'WOAK', 'platform_code': '2'}
+M16-1: {'name': 'Embarcadero', 'code': '901161', 'zone_id': 'EMBR', 'parent_station': 'EMBR', 'platform_code': '1'}
+M16-2: {'name': 'Embarcadero', 'code': '901162', 'zone_id': 'EMBR', 'parent_station': 'EMBR', 'platform_code': '2'}
+M20-1: {'name': 'Montgomery Street', 'code': '901201', 'zone_id': 'MONT', 'parent_station': 'MONT', 'platform_code': '1'}
+M20-2: {'name': 'Montgomery Street', 'code': '901202', 'zone_id': 'MONT', 'parent_station': 'MONT', 'platform_code': '2'}
+M30-1: {'name': 'Powell Street', 'code': '901301', 'zone_id': 'POWL', 'parent_station': 'POWL', 'platform_code': '1'}
+M30-2: {'name': 'Powell Street', 'code': '901302', 'zone_id': 'POWL', 'parent_station': 'POWL', 'platform_code': '2'}
+M40-1: {'name': 'Civic Center / UN Plaza', 'code': '901401', 'zone_id': 'CIVC', 'parent_station': 'CIVC', 'platform_code': '1'}
+M40-2: {'name': 'Civic Center / UN Plaza', 'code': '901402', 'zone_id': 'CIVC', 'parent_station': 'CIVC', 'platform_code': '2'}
+M50-1: {'name': '16th Street / Mission', 'code': '901501', 'zone_id': '16TH', 'parent_station': '16TH', 'platform_code': '1'}
+M50-2: {'name': '16th Street / Mission', 'code': '901502', 'zone_id': '16TH', 'parent_station': '16TH', 'platform_code': '2'}
+M60-1: {'name': '24th Street / Mission', 'code': '901601', 'zone_id': '24TH', 'parent_station': '24TH', 'platform_code': '1'}
+M60-2: {'name': '24th Street / Mission', 'code': '901602', 'zone_id': '24TH', 'parent_station': '24TH', 'platform_code': '2'}
+M70-1: {'name': 'Glen Park', 'code': '901701', 'zone_id': 'GLEN', 'parent_station': 'GLEN', 'platform_code': '1'}
+M70-2: {'name': 'Glen Park', 'code': '901702', 'zone_id': 'GLEN', 'parent_station': 'GLEN', 'platform_code': '2'}
+M80-1: {'name': 'Balboa Park', 'code': '901801', 'zone_id': 'BALB', 'parent_station': 'BALB', 'platform_code': '1'}
+M80-2: {'name': 'Balboa Park', 'code': '901802', 'zone_id': 'BALB', 'parent_station': 'BALB', 'platform_code': '2'}
+M90-1: {'name': 'Daly City', 'code': '901901', 'zone_id': 'DALY', 'parent_station': 'DALY', 'platform_code': '1'}
+M90-2: {'name': 'Daly City', 'code': '901902', 'zone_id': 'DALY', 'parent_station': 'DALY', 'platform_code': '2'}
+M90-3: {'name': 'Daly City', 'code': '901903', 'zone_id': 'DALY', 'parent_station': 'DALY', 'platform_code': '3'}
+R10-1: {'name': 'Ashby', 'code': '904101', 'zone_id': 'ASHB', 'parent_station': 'ASHB', 'platform_code': '1'}
+R10-2: {'name': 'Ashby', 'code': '904102', 'zone_id': 'ASHB', 'parent_station': 'ASHB', 'platform_code': '2'}
+R20-1: {'name': 'Downtown Berkeley', 'code': '904201', 'zone_id': 'DBRK', 'parent_station': 'DBRK', 'platform_code': '1'}
+R20-2: {'name': 'Downtown Berkeley', 'code': '904202', 'zone_id': 'DBRK', 'parent_station': 'DBRK', 'platform_code': '2'}
+R30-1: {'name': 'North Berkeley', 'code': '904301', 'zone_id': 'NBRK', 'parent_station': 'NBRK', 'platform_code': '1'}
+R30-2: {'name': 'North Berkeley', 'code': '904302', 'zone_id': 'NBRK', 'parent_station': 'NBRK', 'platform_code': '2'}
+R40-1: {'name': 'El Cerrito Plaza', 'code': '904401', 'zone_id': 'PLZA', 'parent_station': 'PLZA', 'platform_code': '1'}
+R40-2: {'name': 'El Cerrito Plaza', 'code': '904402', 'zone_id': 'PLZA', 'parent_station': 'PLZA', 'platform_code': '2'}
+R50-1: {'name': 'El Cerrito Del Norte', 'code': '904501', 'zone_id': 'DELN', 'parent_station': 'DELN', 'platform_code': '1'}
+R50-2: {'name': 'El Cerrito Del Norte', 'code': '904502', 'zone_id': 'DELN', 'parent_station': 'DELN', 'platform_code': '2'}
+R60-1: {'name': 'Richmond', 'code': '904601', 'zone_id': 'RICH', 'parent_station': 'RICH', 'platform_code': '1'}
+R60-2: {'name': 'Richmond', 'code': '904602', 'zone_id': 'RICH', 'parent_station': 'RICH', 'platform_code': '2'}
+S20-1: {'name': 'Warm Springs / South Fremont', 'code': '909201', 'zone_id': 'WARM', 'parent_station': 'WARM', 'platform_code': '1'}
+S20-2: {'name': 'Warm Springs / South Fremont', 'code': '909202', 'zone_id': 'WARM', 'parent_station': 'WARM', 'platform_code': '2'}
+S40-1: {'name': 'Milpitas', 'code': '909401', 'zone_id': 'MLPT', 'parent_station': 'MLPT', 'platform_code': '1'}
+S40-2: {'name': 'Milpitas', 'code': '909402', 'zone_id': 'MLPT', 'parent_station': 'MLPT', 'platform_code': '2'}
+S50-1: {'name': 'Berryessa / North San Jose', 'code': '909501', 'zone_id': 'BERY', 'parent_station': 'BERY', 'platform_code': '1'}
+S50-2: {'name': 'Berryessa / North San Jose', 'code': '909502', 'zone_id': 'BERY', 'parent_station': 'BERY', 'platform_code': '2'}
+W10-1: {'name': 'Colma', 'code': '906101', 'zone_id': 'COLM', 'parent_station': 'COLM', 'platform_code': '1'}
+W10-2: {'name': 'Colma', 'code': '906102', 'zone_id': 'COLM', 'parent_station': 'COLM', 'platform_code': '2'}
+W20-1: {'name': 'South San Francisco', 'code': '906201', 'zone_id': 'SSAN', 'parent_station': 'SSAN', 'platform_code': '1'}
+W20-2: {'name': 'South San Francisco', 'code': '906202', 'zone_id': 'SSAN', 'parent_station': 'SSAN', 'platform_code': '2'}
+W30-1: {'name': 'San Bruno', 'code': '906301', 'zone_id': 'SBRN', 'parent_station': 'SBRN', 'platform_code': '1'}
+W30-2: {'name': 'San Bruno', 'code': '906302', 'zone_id': 'SBRN', 'parent_station': 'SBRN', 'platform_code': '2'}
+W40-3: {'name': 'Millbrae (Caltrain Transfer Platform)', 'code': '906403', 'zone_id': 'MLBR', 'parent_station': 'MLBR', 'platform_code': '3'}
+Y10-1: {'name': 'San Francisco International Airport', 'code': '907101', 'zone_id': 'SFIA', 'parent_station': 'SFIA', 'platform_code': '1'}
+Y10-2: {'name': 'San Francisco International Airport', 'code': '907102', 'zone_id': 'SFIA', 'parent_station': 'SFIA', 'platform_code': '2'}
+Y10-3: {'name': 'San Francisco International Airport', 'code': '907103', 'zone_id': 'SFIA', 'parent_station': 'SFIA', 'platform_code': '3'}
+12TH: {'name': '12th Street / Oakland City Center', 'code': '900109', 'zone_id': '12TH', 'parent_station': '', 'platform_code': ''}
+19TH: {'name': '19th Street Oakland', 'code': '900209', 'zone_id': '19TH', 'parent_station': '', 'platform_code': ''}
+MCAR: {'name': 'MacArthur', 'code': '900309', 'zone_id': 'MCAR', 'parent_station': '', 'platform_code': ''}
+WOAK: {'name': 'West Oakland', 'code': '901109', 'zone_id': 'WOAK', 'parent_station': '', 'platform_code': ''}
+EMBR: {'name': 'Embarcadero', 'code': '901169', 'zone_id': 'EMBR', 'parent_station': '', 'platform_code': ''}
+MONT: {'name': 'Montgomery Street', 'code': '901209', 'zone_id': 'MONT', 'parent_station': '', 'platform_code': ''}
+POWL: {'name': 'Powell Street', 'code': '901309', 'zone_id': 'POWL', 'parent_station': '', 'platform_code': ''}
+CIVC: {'name': 'Civic Center / UN Plaza', 'code': '901409', 'zone_id': 'CIVC', 'parent_station': '', 'platform_code': ''}
+16TH: {'name': '16th Street / Mission', 'code': '901509', 'zone_id': '16TH', 'parent_station': '', 'platform_code': ''}
+24TH: {'name': '24th Street / Mission', 'code': '901609', 'zone_id': '24TH', 'parent_station': '', 'platform_code': ''}
+GLEN: {'name': 'Glen Park', 'code': '901709', 'zone_id': 'GLEN', 'parent_station': '', 'platform_code': ''}
+BALB: {'name': 'Balboa Park', 'code': '901809', 'zone_id': 'BALB', 'parent_station': '', 'platform_code': ''}
+DALY: {'name': 'Daly City', 'code': '901909', 'zone_id': 'DALY', 'parent_station': '', 'platform_code': ''}
+LAKE: {'name': 'Lake Merritt', 'code': '902109', 'zone_id': 'LAKE', 'parent_station': '', 'platform_code': ''}
+FTVL: {'name': 'Fruitvale', 'code': '902209', 'zone_id': 'FTVL', 'parent_station': '', 'platform_code': ''}
+COLS: {'name': 'Coliseum', 'code': '902309', 'zone_id': 'COLS', 'parent_station': '', 'platform_code': ''}
+SANL: {'name': 'San Leandro', 'code': '902409', 'zone_id': 'SANL', 'parent_station': '', 'platform_code': ''}
+BAYF: {'name': 'Bay Fair', 'code': '902509', 'zone_id': 'BAYF', 'parent_station': '', 'platform_code': ''}
+HAYW: {'name': 'Hayward', 'code': '902609', 'zone_id': 'HAYW', 'parent_station': '', 'platform_code': ''}
+SHAY: {'name': 'South Hayward', 'code': '902709', 'zone_id': 'SHAY', 'parent_station': '', 'platform_code': ''}
+UCTY: {'name': 'Union City', 'code': '902809', 'zone_id': 'UCTY', 'parent_station': '', 'platform_code': ''}
+FRMT: {'name': 'Fremont', 'code': '902909', 'zone_id': 'FRMT', 'parent_station': '', 'platform_code': ''}
+ROCK: {'name': 'Rockridge', 'code': '903109', 'zone_id': 'ROCK', 'parent_station': '', 'platform_code': ''}
+ORIN: {'name': 'Orinda', 'code': '903209', 'zone_id': 'ORIN', 'parent_station': '', 'platform_code': ''}
+LAFY: {'name': 'Lafayette', 'code': '903309', 'zone_id': 'LAFY', 'parent_station': '', 'platform_code': ''}
+WCRK: {'name': 'Walnut Creek', 'code': '903409', 'zone_id': 'WCRK', 'parent_station': '', 'platform_code': ''}
+PHIL: {'name': 'Pleasant Hill / Contra Costa Centre', 'code': '903509', 'zone_id': 'PHIL', 'parent_station': '', 'platform_code': ''}
+CONC: {'name': 'Concord', 'code': '903609', 'zone_id': 'CONC', 'parent_station': '', 'platform_code': ''}
+NCON: {'name': 'North Concord / Martinez', 'code': '903709', 'zone_id': 'NCON', 'parent_station': '', 'platform_code': ''}
+PITT: {'name': 'Pittsburg / Bay Point', 'code': '903809', 'zone_id': 'PITT', 'parent_station': '', 'platform_code': ''}
+ASHB: {'name': 'Ashby', 'code': '904109', 'zone_id': 'ASHB', 'parent_station': '', 'platform_code': ''}
+DBRK: {'name': 'Downtown Berkeley', 'code': '904209', 'zone_id': 'DBRK', 'parent_station': '', 'platform_code': ''}
+NBRK: {'name': 'North Berkeley', 'code': '904309', 'zone_id': 'NBRK', 'parent_station': '', 'platform_code': ''}
+PLZA: {'name': 'El Cerrito Plaza', 'code': '904409', 'zone_id': 'PLZA', 'parent_station': '', 'platform_code': ''}
+DELN: {'name': 'El Cerrito Del Norte', 'code': '904509', 'zone_id': 'DELN', 'parent_station': '', 'platform_code': ''}
+RICH: {'name': 'Richmond', 'code': '904609', 'zone_id': 'RICH', 'parent_station': '', 'platform_code': ''}
+CAST: {'name': 'Castro Valley', 'code': '905109', 'zone_id': 'CAST', 'parent_station': '', 'platform_code': ''}
+WDUB: {'name': 'West Dublin / Pleasanton', 'code': '905209', 'zone_id': 'WDUB', 'parent_station': '', 'platform_code': ''}
+DUBL: {'name': 'Dublin / Pleasanton', 'code': '905309', 'zone_id': 'DUBL', 'parent_station': '', 'platform_code': ''}
+COLM: {'name': 'Colma', 'code': '906109', 'zone_id': 'COLM', 'parent_station': '', 'platform_code': ''}
+SSAN: {'name': 'South San Francisco', 'code': '906209', 'zone_id': 'SSAN', 'parent_station': '', 'platform_code': ''}
+SBRN: {'name': 'San Bruno', 'code': '906309', 'zone_id': 'SBRN', 'parent_station': '', 'platform_code': ''}
+MLBR: {'name': 'Millbrae', 'code': '906409', 'zone_id': 'MLBR', 'parent_station': '', 'platform_code': ''}
+SFIA: {'name': 'San Francisco International Airport', 'code': '907109', 'zone_id': 'SFIA', 'parent_station': '', 'platform_code': ''}
+OAKL: {'name': 'Oakland International Airport', 'code': '907409', 'zone_id': 'OAKL', 'parent_station': '', 'platform_code': ''}
+PCTR: {'name': 'Pittsburg Center', 'code': '908209', 'zone_id': 'PCTR', 'parent_station': '', 'platform_code': ''}
+ANTC: {'name': 'Antioch', 'code': '908309', 'zone_id': 'ANTC', 'parent_station': '', 'platform_code': ''}
+WARM: {'name': 'Warm Springs / South Fremont', 'code': '909209', 'zone_id': 'WARM', 'parent_station': '', 'platform_code': ''}
+MLPT: {'name': 'Milpitas', 'code': '909409', 'zone_id': 'MLPT', 'parent_station': '', 'platform_code': ''}
+BERY: {'name': 'Berryessa / North San Jose', 'code': '909509', 'zone_id': 'BERY', 'parent_station': '', 'platform_code': ''}
+12TH_1: {'name': 'B2 13th St and Broadway Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': '12TH', 'platform_code': ''}
+12TH_2: {'name': 'A2 13th St and Broadway Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': '12TH', 'platform_code': ''}
+12TH_3: {'name': 'B3 13th St and Broadway Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': '12TH', 'platform_code': ''}
+12TH_4: {'name': 'A3 Oakland City Center Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': '12TH', 'platform_code': ''}
+12TH_5: {'name': 'A1 12th St and Broadway Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': '12TH', 'platform_code': ''}
+12TH_6: {'name': 'B1 12th St and Broadway Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': '12TH', 'platform_code': ''}
+12TH_7: {'name': 'A4 Frank Ogawa Plaza Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': '12TH', 'platform_code': ''}
+12TH_8: {'name': 'B4 14th St and Broadway Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': '12TH', 'platform_code': ''}
+16TH_1: {'name': 'A 16TH & Mission SW Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': '16TH', 'platform_code': ''}
+16TH_2: {'name': 'B 16TH & Mission NE Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': '16TH', 'platform_code': ''}
+16TH_3: {'name': 'Elevator Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': '16TH', 'platform_code': ''}
+19TH_1: {'name': 'B2 19th and Broadway Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': '19TH', 'platform_code': ''}
+19TH_2: {'name': 'A1 17th and Broaddway Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': '19TH', 'platform_code': ''}
+19TH_3: {'name': 'A2 20th and Broadway Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': '19TH', 'platform_code': ''}
+19TH_4: {'name': 'B4 20th and Broadway Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': '19TH', 'platform_code': ''}
+19TH_5: {'name': 'B3 19th and Broadway Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': '19TH', 'platform_code': ''}
+19TH_6: {'name': 'B1 17th and Broadway Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': '19TH', 'platform_code': ''}
+24TH_1: {'name': 'Elevator Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': '24TH', 'platform_code': ''}
+24TH_2: {'name': 'B 24TH & Mission NE Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': '24TH', 'platform_code': ''}
+24TH_3: {'name': 'A 24TH & Mission SW Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': '24TH', 'platform_code': ''}
+ANTC_1: {'name': 'Main Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'ANTC', 'platform_code': ''}
+ASHB_1: {'name': 'Adeline Street East Entrance / Exit Stairs', 'code': '', 'zone_id': '', 'parent_station': 'ASHB', 'platform_code': ''}
+ASHB_2: {'name': 'Adeline Street East Entrance / Exit Elevator', 'code': '', 'zone_id': '', 'parent_station': 'ASHB', 'platform_code': ''}
+ASHB_3: {'name': 'Adeline Street West Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'ASHB', 'platform_code': ''}
+BALB_1: {'name': 'A2 John F Foran Fwy (Ramp) Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'BALB', 'platform_code': ''}
+BALB_2: {'name': 'A1 Geneva Ave Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'BALB', 'platform_code': ''}
+BALB_3: {'name': 'B1 Geneva Ave Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'BALB', 'platform_code': ''}
+BALB_4: {'name': 'B3 Geneva Ave Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'BALB', 'platform_code': ''}
+BALB_5: {'name': 'B2 (Elevator) Geneva Ave Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'BALB', 'platform_code': ''}
+BALB_6: {'name': 'B4 John F Foran Fwy (Ramp) Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'BALB', 'platform_code': ''}
+BAYF_1: {'name': 'East Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'BAYF', 'platform_code': ''}
+BAYF_2: {'name': 'West Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'BAYF', 'platform_code': ''}
+BERY_1: {'name': 'Main Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'BERY', 'platform_code': ''}
+BERY_2: {'name': 'North Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'BERY', 'platform_code': ''}
+BERY_3: {'name': 'South Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'BERY', 'platform_code': ''}
+CAST_1: {'name': 'Main Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'CAST', 'platform_code': ''}
+CIVC_1: {'name': 'Elevator Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'CIVC', 'platform_code': ''}
+CIVC_2: {'name': 'A3 1150 Market Street - UN Plaza Stairs Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'CIVC', 'platform_code': ''}
+CIVC_3: {'name': 'B3 1150 Market Street Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'CIVC', 'platform_code': ''}
+CIVC_4: {'name': 'A4 Market Street & 7th Street (NW) Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'CIVC', 'platform_code': ''}
+CIVC_5: {'name': 'B4 Market Street & 7th Street (NE) Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'CIVC', 'platform_code': ''}
+CIVC_6: {'name': 'A2 Market Street & Hyde Street (SW) Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'CIVC', 'platform_code': ''}
+CIVC_7: {'name': 'B2 Market Street & 8th Street (SE) Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'CIVC', 'platform_code': ''}
+COLM_1: {'name': 'West Entrance / Exit to Parking Garage', 'code': '', 'zone_id': '', 'parent_station': 'COLM', 'platform_code': ''}
+COLM_2: {'name': 'East Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'COLM', 'platform_code': ''}
+COLS_1: {'name': '71st Ave Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'COLS', 'platform_code': ''}
+COLS_2: {'name': 'Elevated Walkway to Amtrak Station, Coliseum Arena Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'COLS', 'platform_code': ''}
+COLS_3: {'name': 'San Leandro Street Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'COLS', 'platform_code': ''}
+COLS_4: {'name': 'OAK Connection Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'COLS', 'platform_code': ''}
+COLS_5: {'name': 'Snell St Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'COLS', 'platform_code': ''}
+COLS_6: {'name': 'Coliseum/Airport Connector Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'COLS', 'platform_code': ''}
+CONC_1: {'name': 'West Concourse Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'CONC', 'platform_code': ''}
+CONC_2: {'name': 'East Concourse Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'CONC', 'platform_code': ''}
+DALY_1: {'name': 'A John Daly, Junipero Serra Blvd Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'DALY', 'platform_code': ''}
+DALY_2: {'name': 'East Parking Lot Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'DALY', 'platform_code': ''}
+DALY_3: {'name': 'B De Long St, St Charles Ave Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'DALY', 'platform_code': ''}
+DBRK_1: {'name': 'B4 Shattuck Ave & Allston Way (West) Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'DBRK', 'platform_code': ''}
+DBRK_2: {'name': 'A2 Shattuck Ave & Allston Way (East) Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'DBRK', 'platform_code': ''}
+DBRK_3: {'name': 'B1 Shattuck Ave & Addison Street (West) Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'DBRK', 'platform_code': ''}
+DBRK_4: {'name': 'A1 Shattuck Ave & Addison Street (East) Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'DBRK', 'platform_code': ''}
+DBRK_5: {'name': 'B3 DBRK Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'DBRK', 'platform_code': ''}
+DELN_1: {'name': 'West Concourse Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'DELN', 'platform_code': ''}
+DELN_2: {'name': 'East Concourse Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'DELN', 'platform_code': ''}
+DUBL_1: {'name': 'Main Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'DUBL', 'platform_code': ''}
+EMBR_1: {'name': 'B1 Market & Spear Street (SE) Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'EMBR', 'platform_code': ''}
+EMBR_2: {'name': 'A1 Market & Drumm Street (NE) Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'EMBR', 'platform_code': ''}
+EMBR_3: {'name': 'A2 Market & Davis Street (North) Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'EMBR', 'platform_code': ''}
+EMBR_4: {'name': 'B2 Market Street & Main Street (South) Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'EMBR', 'platform_code': ''}
+EMBR_5: {'name': 'A3 Market Street & Front Street (NW) Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'EMBR', 'platform_code': ''}
+EMBR_6: {'name': 'B3 Market Street & Fremont Street (SW) Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'EMBR', 'platform_code': ''}
+FRMT_1: {'name': 'East Plaza Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'FRMT', 'platform_code': ''}
+FRMT_2: {'name': 'West Plaza Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'FRMT', 'platform_code': ''}
+FRMT_3: {'name': 'Station Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'FRMT', 'platform_code': ''}
+FTVL_1: {'name': 'Main Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'FTVL', 'platform_code': ''}
+GLEN_1: {'name': 'Main Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'GLEN', 'platform_code': ''}
+HAYW_1: {'name': 'Main Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'HAYW', 'platform_code': ''}
+LAFY_1: {'name': 'A Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'LAFY', 'platform_code': ''}
+LAFY_2: {'name': 'B Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'LAFY', 'platform_code': ''}
+LAKE_1: {'name': 'B1 NW 8th & Oak St Jack London Sq Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'LAKE', 'platform_code': ''}
+LAKE_2: {'name': 'B2 SW 8th St, Laney College Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'LAKE', 'platform_code': ''}
+LAKE_3: {'name': 'A2 SE 9th & Oak St Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'LAKE', 'platform_code': ''}
+LAKE_4: {'name': 'A1 NE Chinatown Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'LAKE', 'platform_code': ''}
+MCAR_1: {'name': 'Main Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'MCAR', 'platform_code': ''}
+MLBR_1: {'name': 'Main Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'MLBR', 'platform_code': ''}
+MLPT_1: {'name': 'West Station Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'MLPT', 'platform_code': ''}
+MLPT_2: {'name': 'East Station Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'MLPT', 'platform_code': ''}
+MONT_1: {'name': 'A1 Market & Post Street (NW) Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'MONT', 'platform_code': ''}
+MONT_2: {'name': 'B1 598 Market St (SW) Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'MONT', 'platform_code': ''}
+MONT_3: {'name': 'A2 Market & Montgomery Street (NE) Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'MONT', 'platform_code': ''}
+MONT_4: {'name': 'B2 Market & 2nd Street (South) Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'MONT', 'platform_code': ''}
+MONT_5: {'name': 'A3 Sutter Street Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'MONT', 'platform_code': ''}
+MONT_6: {'name': 'A4 Sansome Street Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'MONT', 'platform_code': ''}
+MONT_7: {'name': 'B3 575 Market St (SE) Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'MONT', 'platform_code': ''}
+NBRK_1: {'name': 'North Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'NBRK', 'platform_code': ''}
+NBRK_2: {'name': 'South Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'NBRK', 'platform_code': ''}
+NCON_1: {'name': 'Main Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'NCON', 'platform_code': ''}
+OAKL_1: {'name': 'Main Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'OAKL', 'platform_code': ''}
+ORIN_1: {'name': 'Main Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'ORIN', 'platform_code': ''}
+PCTR_1: {'name': 'Main Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'PCTR', 'platform_code': ''}
+PHIL_1: {'name': 'Main Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'PHIL', 'platform_code': ''}
+PITT_1: {'name': 'Main Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'PITT', 'platform_code': ''}
+PLZA_1: {'name': 'West Concourse Central Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'PLZA', 'platform_code': ''}
+PLZA_2: {'name': 'East Concourse Central Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'PLZA', 'platform_code': ''}
+PLZA_3: {'name': 'South Concourse Fairmont Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'PLZA', 'platform_code': ''}
+POWL_1: {'name': 'A4 Market Street & 4th Street (NE) Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'POWL', 'platform_code': ''}
+POWL_2: {'name': 'B4 Market Street & 4th Street (SE) Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'POWL', 'platform_code': ''}
+POWL_3: {'name': 'A3 Stockton Street Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'POWL', 'platform_code': ''}
+POWL_4: {'name': 'A2 Market Street & Ellis Street Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'POWL', 'platform_code': ''}
+POWL_5: {'name': 'B3 Market Street & 4th Street (South) Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'POWL', 'platform_code': ''}
+POWL_6: {'name': 'B2 Market Street & 5th Street (NE) Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'POWL', 'platform_code': ''}
+POWL_7: {'name': 'A1 899 Market St Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'POWL', 'platform_code': ''}
+POWL_8: {'name': 'B1 Market Street & 5th Street Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'POWL', 'platform_code': ''}
+RICH_1: {'name': 'B 19th Street / Civic Center Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'RICH', 'platform_code': ''}
+RICH_2: {'name': 'A Marina Way / 16th St Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'RICH', 'platform_code': ''}
+ROCK_1: {'name': 'West Concourse Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'ROCK', 'platform_code': ''}
+ROCK_2: {'name': 'Main (South) Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'ROCK', 'platform_code': ''}
+SANL_1: {'name': 'West Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'SANL', 'platform_code': ''}
+SANL_2: {'name': 'East Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'SANL', 'platform_code': ''}
+SBRN_1: {'name': 'Huntington Ave Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'SBRN', 'platform_code': ''}
+SBRN_2: {'name': 'Plaza, Shopping Center Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'SBRN', 'platform_code': ''}
+SFIA_1: {'name': 'SFIA Entrance / Exit, International Terminal, Level 3', 'code': '', 'zone_id': '', 'parent_station': 'SFIA', 'platform_code': ''}
+SHAY_1: {'name': 'Main Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'SHAY', 'platform_code': ''}
+SSAN_1: {'name': 'East Concourse Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'SSAN', 'platform_code': ''}
+SSAN_2: {'name': 'West Concourse Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'SSAN', 'platform_code': ''}
+UCTY_1: {'name': 'Main Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'UCTY', 'platform_code': ''}
+WARM_1: {'name': 'Main (East) Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'WARM', 'platform_code': ''}
+WARM_2: {'name': 'Station Elevator Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'WARM', 'platform_code': ''}
+WCRK_1: {'name': 'Main Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'WCRK', 'platform_code': ''}
+WDUB_1: {'name': '6501 Golden Gate Dr Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'WDUB', 'platform_code': ''}
+WDUB_2: {'name': 'Stone Ridge Mall Rd. Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'WDUB', 'platform_code': ''}
+WOAK_1: {'name': 'North Station Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'WOAK', 'platform_code': ''}
+WOAK_2: {'name': 'South Station Entrance / Exit', 'code': '', 'zone_id': '', 'parent_station': 'WOAK', 'platform_code': ''}

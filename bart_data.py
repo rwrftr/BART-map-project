@@ -155,6 +155,7 @@ def get_all_stops(feed: gtfs_realtime_pb2.FeedMessage, stops: dict) -> dict:
     return all_stops
 
 if __name__ == "__main__":
+    
     #test the functions
     stops = load_stops()
     feed = fetch_feed()

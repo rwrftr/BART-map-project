@@ -2,6 +2,7 @@ import tkinter
 import sv_ttk
 from tkinter import ttk
 from bart_data import load_stops, fetch_feed, prepare_data, get_train_schedule, get_stop_arrivals, refresh_data, get_all_stops
+
 stops = load_stops() # a dictionary of stops
 feed = fetch_feed() # a FeedMessage object
 next_by_train, by_stop = prepare_data(feed, stops) # process the feed and stops
@@ -78,6 +79,21 @@ def by_stop(stop_name):
     
 
     show_output(output)
+
+def create_buttons(buttonsFrame):
+
+    # refresh
+    # list trains
+    # list stops
+    # exit
+    
+    button = ttk.Button(buttonsFrame, text=label)
+    button.config(command=lambda btn=button: onClick(btn))
+    button.grid(row=i+1, column=0, padx=5, pady=9, sticky='ew')  # Place button in grid
+    buttonsList.append(button)
+
+
+    pass
 
 if __name__ == "__main__":
     # create the main application window
